@@ -1,0 +1,220 @@
+{
+  "callId": "4138257129542022417",
+  "callStartTime": "2026-06-25T15:00:00-07:00",
+  "durationSeconds": 114,
+  "parties": [
+    {
+      "speakerId": "342675763540280906633",
+      "name": "Theo Marchetti",
+      "emailAddress": "theomarchetti@ourteam.example.com",
+      "affiliation": "Internal",
+      "title": "Account Executive"
+    },
+    {
+      "speakerId": "501465606365443254883",
+      "name": "Ines Carvalho",
+      "emailAddress": "inescarvalho@northgatebiosciences.example.com",
+      "affiliation": "External",
+      "title": "Director of People Operations"
+    }
+  ],
+  "transcript": [
+    {
+      "speakerId": "342675763540280906633",
+      "topic": "Call Setup",
+      "sentences": [
+        {
+          "start": 0,
+          "end": 2400,
+          "text": "Hey Ines, thanks for the time."
+        },
+        {
+          "start": 2550,
+          "end": 10550,
+          "text": "It's been a few weeks since we last connected, wanted to check in on where things landed after the proposal."
+        }
+      ]
+    },
+    {
+      "speakerId": "501465606365443254883",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 11100,
+          "end": 13100,
+          "text": "Yeah, sorry for the delay."
+        },
+        {
+          "start": 13250,
+          "end": 16850,
+          "text": "Things got a little more complicated on our end."
+        }
+      ]
+    },
+    {
+      "speakerId": "342675763540280906633",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 17400,
+          "end": 19400,
+          "text": "No worries, what's going on?"
+        }
+      ]
+    },
+    {
+      "speakerId": "501465606365443254883",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 19950,
+          "end": 23950,
+          "text": "So, we actually got some pushback internally on the price."
+        },
+        {
+          "start": 24100,
+          "end": 31700,
+          "text": "Finance came back and said the number was higher than they'd modeled for this category of tool this year."
+        }
+      ]
+    },
+    {
+      "speakerId": "342675763540280906633",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 32250,
+          "end": 32650,
+          "text": "Understood."
+        },
+        {
+          "start": 32800,
+          "end": 39200,
+          "text": "Is there flexibility on scope that might help, or is it strictly a budget ceiling issue?"
+        }
+      ]
+    },
+    {
+      "speakerId": "501465606365443254883",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 39750,
+          "end": 41350,
+          "text": "Bit of both, honestly."
+        },
+        {
+          "start": 41500,
+          "end": 47100,
+          "text": "And I'll be straight with you, we're also taking a look at Meadowlight."
+        },
+        {
+          "start": 47250,
+          "end": 54850,
+          "text": "Their number came in lower, and a couple of the directors want a bake-off before we commit to anything."
+        }
+      ]
+    },
+    {
+      "speakerId": "342675763540280906633",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 55400,
+          "end": 57400,
+          "text": "Appreciate you telling me directly."
+        },
+        {
+          "start": 57550,
+          "end": 61950,
+          "text": "What matters most to you and your team in that comparison?"
+        }
+      ]
+    },
+    {
+      "speakerId": "501465606365443254883",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 62500,
+          "end": 69300,
+          "text": "For us it's really the reporting depth and how well it plugs into our existing HR systems."
+        },
+        {
+          "start": 69450,
+          "end": 77450,
+          "text": "Meadowlight's cheaper but from what I've seen their performance review depth is pretty shallow compared to their survey side."
+        }
+      ]
+    },
+    {
+      "speakerId": "342675763540280906633",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 78000,
+          "end": 79600,
+          "text": "That's helpful to know."
+        },
+        {
+          "start": 79750,
+          "end": 85750,
+          "text": "Would it be useful if I put together a side-by-side on the reporting piece specifically?"
+        }
+      ]
+    },
+    {
+      "speakerId": "501465606365443254883",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 86300,
+          "end": 88300,
+          "text": "Yeah, that would help internally."
+        },
+        {
+          "start": 88450,
+          "end": 95250,
+          "text": "I think the team leans our direction but the price gap is a real conversation right now."
+        }
+      ]
+    },
+    {
+      "speakerId": "342675763540280906633",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 95800,
+          "end": 96600,
+          "text": "Got it."
+        },
+        {
+          "start": 96750,
+          "end": 98750,
+          "text": "Let me pull that together."
+        },
+        {
+          "start": 98900,
+          "end": 102100,
+          "text": "Roughly what's your timeline on making a call?"
+        }
+      ]
+    },
+    {
+      "speakerId": "501465606365443254883",
+      "topic": "Next Steps",
+      "sentences": [
+        {
+          "start": 102650,
+          "end": 108250,
+          "text": "Honestly it's been dragging, we were hoping to have this settled a month ago."
+        },
+        {
+          "start": 108400,
+          "end": 113600,
+          "text": "I don't have a hard deadline anymore, which is part of the problem."
+        }
+      ]
+    }
+  ]
+}

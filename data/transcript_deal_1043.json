@@ -1,0 +1,146 @@
+{
+  "callId": "3016579388887034202",
+  "callStartTime": "2026-07-24T11:00:00-07:00",
+  "durationSeconds": 72,
+  "parties": [
+    {
+      "speakerId": "810298434458174335512",
+      "name": "Simone Achebe",
+      "emailAddress": "simoneachebe@ourteam.example.com",
+      "affiliation": "Internal",
+      "title": "Account Executive"
+    },
+    {
+      "speakerId": "331714072921731960755",
+      "name": "Harper Solis",
+      "emailAddress": "harpersolis@copperlinesystems.example.com",
+      "affiliation": "External",
+      "title": "Head of People"
+    }
+  ],
+  "transcript": [
+    {
+      "speakerId": "810298434458174335512",
+      "topic": "Call Setup",
+      "sentences": [
+        {
+          "start": 0,
+          "end": 2400,
+          "text": "Hey Harper, thanks for hopping on."
+        },
+        {
+          "start": 2550,
+          "end": 12150,
+          "text": "I know this is a first call so I'll keep it pretty high level, what's prompting you to look at something like this now?"
+        }
+      ]
+    },
+    {
+      "speakerId": "331714072921731960755",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 12700,
+          "end": 16700,
+          "text": "Honestly we're just growing past what we can manage informally."
+        },
+        {
+          "start": 16850,
+          "end": 25650,
+          "text": "We don't even really have a formal review process yet, it's mostly ad hoc conversations whenever a manager remembers to have one."
+        }
+      ]
+    },
+    {
+      "speakerId": "810298434458174335512",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 26200,
+          "end": 27000,
+          "text": "Got it."
+        },
+        {
+          "start": 27150,
+          "end": 32750,
+          "text": "Is that mainly a you problem, or is there a broader team feeling this?"
+        }
+      ]
+    },
+    {
+      "speakerId": "331714072921731960755",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 33300,
+          "end": 41300,
+          "text": "Mostly me right now, it's a small shop and I wear the HR hat along with a few other things."
+        },
+        {
+          "start": 41450,
+          "end": 46650,
+          "text": "If it saves me time setting this up that's really the whole pitch."
+        }
+      ]
+    },
+    {
+      "speakerId": "810298434458174335512",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 47200,
+          "end": 48000,
+          "text": "Makes sense."
+        },
+        {
+          "start": 48150,
+          "end": 54550,
+          "text": "Are you looking at anything else right now, or is this the first tool you're evaluating?"
+        }
+      ]
+    },
+    {
+      "speakerId": "331714072921731960755",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 55100,
+          "end": 56300,
+          "text": "First one, honestly."
+        },
+        {
+          "start": 56450,
+          "end": 60050,
+          "text": "Wanted to see what's out there before going deeper."
+        }
+      ]
+    },
+    {
+      "speakerId": "810298434458174335512",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 60600,
+          "end": 61400,
+          "text": "Totally fair."
+        },
+        {
+          "start": 61550,
+          "end": 69150,
+          "text": "I'll send over a couple of resources and we can find time for a deeper walkthrough if that's useful."
+        }
+      ]
+    },
+    {
+      "speakerId": "331714072921731960755",
+      "topic": "Next Steps",
+      "sentences": [
+        {
+          "start": 69700,
+          "end": 71700,
+          "text": "Sounds good, let's do that."
+        }
+      ]
+    }
+  ]
+}

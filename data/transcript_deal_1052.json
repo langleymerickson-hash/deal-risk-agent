@@ -1,0 +1,158 @@
+{
+  "callId": "4364982910062445278",
+  "callStartTime": "2026-06-28T09:00:00-07:00",
+  "durationSeconds": 75,
+  "parties": [
+    {
+      "speakerId": "512657003169203860201",
+      "name": "Theo Marchetti",
+      "emailAddress": "theomarchetti@ourteam.example.com",
+      "affiliation": "Internal",
+      "title": "Account Executive"
+    },
+    {
+      "speakerId": "425957199160747901102",
+      "name": "Julian Ostrowski",
+      "emailAddress": "julianostrowski@vantagerobotics.example.com",
+      "affiliation": "External",
+      "title": "Director of People"
+    }
+  ],
+  "transcript": [
+    {
+      "speakerId": "512657003169203860201",
+      "topic": "Call Setup",
+      "sentences": [
+        {
+          "start": 0,
+          "end": 1600,
+          "text": "Julian, good to connect."
+        },
+        {
+          "start": 1750,
+          "end": 4550,
+          "text": "Where are we on the security review?"
+        }
+      ]
+    },
+    {
+      "speakerId": "425957199160747901102",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 5100,
+          "end": 8700,
+          "text": "Almost through it, should clear by end of week."
+        },
+        {
+          "start": 8850,
+          "end": 13250,
+          "text": "Renata's ready to take it to the board right after that."
+        }
+      ]
+    },
+    {
+      "speakerId": "512657003169203860201",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 13800,
+          "end": 17800,
+          "text": "Great, and the board sign-off, any sense of timing there?"
+        }
+      ]
+    },
+    {
+      "speakerId": "425957199160747901102",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 18350,
+          "end": 31950,
+          "text": "Should be next board meeting, though I'll be honest, one of the board members is out on leave right now, so there's a chance it slips to the one after if he's not back."
+        }
+      ]
+    },
+    {
+      "speakerId": "512657003169203860201",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 32500,
+          "end": 35300,
+          "text": "Good to know, appreciate the heads up."
+        },
+        {
+          "start": 35450,
+          "end": 39450,
+          "text": "Anything shifted on the metrics side since we last talked?"
+        }
+      ]
+    },
+    {
+      "speakerId": "425957199160747901102",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 40000,
+          "end": 47600,
+          "text": "No, the twenty percent number on review completion still holds, that's what got this prioritized in the first place."
+        }
+      ]
+    },
+    {
+      "speakerId": "512657003169203860201",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 48150,
+          "end": 48550,
+          "text": "Good."
+        },
+        {
+          "start": 48700,
+          "end": 52700,
+          "text": "And GradeLine, are they still in the mix at all?"
+        }
+      ]
+    },
+    {
+      "speakerId": "425957199160747901102",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 53250,
+          "end": 63650,
+          "text": "Not really anymore, they dropped off after the security review request, I think their certifications weren't where we needed them given how sensitive this data is."
+        }
+      ]
+    },
+    {
+      "speakerId": "512657003169203860201",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 64200,
+          "end": 65000,
+          "text": "Got it."
+        },
+        {
+          "start": 65150,
+          "end": 68350,
+          "text": "And legal's working through the MSA in parallel?"
+        }
+      ]
+    },
+    {
+      "speakerId": "425957199160747901102",
+      "topic": "Next Steps",
+      "sentences": [
+        {
+          "start": 68900,
+          "end": 74500,
+          "text": "Yeah, that's moving alongside the security piece, nothing blocking there that I'm aware of."
+        }
+      ]
+    }
+  ]
+}

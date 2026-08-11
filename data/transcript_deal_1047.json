@@ -1,0 +1,168 @@
+{
+  "callId": "1855429427057292269",
+  "callStartTime": "2026-07-18T12:00:00-07:00",
+  "durationSeconds": 77,
+  "parties": [
+    {
+      "speakerId": "507612471923871771261",
+      "name": "Nora Vance",
+      "emailAddress": "noravance@ourteam.example.com",
+      "affiliation": "Internal",
+      "title": "Account Executive"
+    },
+    {
+      "speakerId": "807321137979899339795",
+      "name": "Freya Lindqvist",
+      "emailAddress": "freyalindqvist@suncrestprovisions.example.com",
+      "affiliation": "External",
+      "title": "VP of People"
+    }
+  ],
+  "transcript": [
+    {
+      "speakerId": "507612471923871771261",
+      "topic": "Call Setup",
+      "sentences": [
+        {
+          "start": 0,
+          "end": 2000,
+          "text": "Freya, thanks for making time."
+        },
+        {
+          "start": 2150,
+          "end": 7750,
+          "text": "Anton mentioned you'd signed off on budget, where do things stand on your end?"
+        }
+      ]
+    },
+    {
+      "speakerId": "807321137979899339795",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 8300,
+          "end": 11500,
+          "text": "Yeah, I approved it a couple weeks back."
+        },
+        {
+          "start": 11650,
+          "end": 17650,
+          "text": "We're just working through security and our data processing agreement now before we can finalize."
+        }
+      ]
+    },
+    {
+      "speakerId": "507612471923871771261",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 18200,
+          "end": 19400,
+          "text": "Good to know."
+        },
+        {
+          "start": 19550,
+          "end": 21150,
+          "text": "How's that review going?"
+        }
+      ]
+    },
+    {
+      "speakerId": "807321137979899339795",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 21700,
+          "end": 27300,
+          "text": "Almost done, our security lead said we're maybe a week out from clearing it."
+        }
+      ]
+    },
+    {
+      "speakerId": "507612471923871771261",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 27850,
+          "end": 28250,
+          "text": "Great."
+        },
+        {
+          "start": 28400,
+          "end": 35600,
+          "text": "Anton mentioned the manager-hours-saved number was a big part of the case for you, did that hold up?"
+        }
+      ]
+    },
+    {
+      "speakerId": "807321137979899339795",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 36150,
+          "end": 42150,
+          "text": "Yeah, the number on time saved during review cycles is what got this prioritized honestly."
+        },
+        {
+          "start": 42300,
+          "end": 45100,
+          "text": "That was the number that mattered most."
+        }
+      ]
+    },
+    {
+      "speakerId": "507612471923871771261",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 45650,
+          "end": 46850,
+          "text": "Good to hear."
+        },
+        {
+          "start": 47000,
+          "end": 50600,
+          "text": "Did you look at anyone else before landing here?"
+        }
+      ]
+    },
+    {
+      "speakerId": "807321137979899339795",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 51150,
+          "end": 62750,
+          "text": "We took a quick look at Fieldnote early on but ruled them out, they felt a lot lighter weight on the compensation and calibration side than what we needed."
+        }
+      ]
+    },
+    {
+      "speakerId": "507612471923871771261",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 63300,
+          "end": 65300,
+          "text": "Got it, that's helpful context."
+        },
+        {
+          "start": 65450,
+          "end": 68250,
+          "text": "Once security clears, what's left before signature?"
+        }
+      ]
+    },
+    {
+      "speakerId": "807321137979899339795",
+      "topic": "Next Steps",
+      "sentences": [
+        {
+          "start": 68800,
+          "end": 76400,
+          "text": "Just getting the contract in front of legal, but that should move quickly since security's the long pole here."
+        }
+      ]
+    }
+  ]
+}

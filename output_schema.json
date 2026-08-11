@@ -1,0 +1,20 @@
+{
+  "deal_id": "string",
+  "company": "string",
+  "risk_tier": "Red | Yellow | Green",
+  "reasoning": "string — 1-2 sentences, must cite specific evidence from the data provided, not a generic statement",
+  "recommended_action": "string — 1 sentence, a specific next step for the rep to take",
+  "meddpicc": {
+    "metrics": "string or null",
+    "economic_buyer": "string or null",
+    "decision_criteria": "string or null",
+    "decision_process": "string or null",
+    "paper_process": "string or null",
+    "identify_pain": "string or null",
+    "champion": "string or null",
+    "competition": "string or null"
+  },
+  "flags": {
+    "missing_data_fields": "array of strings — any meddpicc.* key above that could not be determined from the available data"
+  }
+}

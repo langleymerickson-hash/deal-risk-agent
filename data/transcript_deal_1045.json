@@ -1,0 +1,141 @@
+{
+  "callId": "8465678202832650640",
+  "callStartTime": "2026-07-22T10:00:00-07:00",
+  "durationSeconds": 60,
+  "parties": [
+    {
+      "speakerId": "985563596527224125259",
+      "name": "Wes Callahan",
+      "emailAddress": "wescallahan@ourteam.example.com",
+      "affiliation": "Internal",
+      "title": "Account Executive"
+    },
+    {
+      "speakerId": "914601933716097477565",
+      "name": "Bianca Souza",
+      "emailAddress": "biancasouza@larkspurmediagroup.example.com",
+      "affiliation": "External",
+      "title": "People Ops Coordinator"
+    }
+  ],
+  "transcript": [
+    {
+      "speakerId": "985563596527224125259",
+      "topic": "Call Setup",
+      "sentences": [
+        {
+          "start": 0,
+          "end": 2000,
+          "text": "Bianca, good to connect again."
+        },
+        {
+          "start": 2150,
+          "end": 6950,
+          "text": "Last time you mentioned review sign-offs were a bottleneck, still the case?"
+        }
+      ]
+    },
+    {
+      "speakerId": "914601933716097477565",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 7500,
+          "end": 9500,
+          "text": "Yeah, honestly it's gotten worse."
+        },
+        {
+          "start": 9650,
+          "end": 18050,
+          "text": "Every review needs like three separate sign-offs and half the time nobody remembers to actually give one before the cycle closes."
+        }
+      ]
+    },
+    {
+      "speakerId": "985563596527224125259",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 18600,
+          "end": 21400,
+          "text": "That's a great use case for us."
+        },
+        {
+          "start": 21550,
+          "end": 26350,
+          "text": "Who typically needs to approve something like a new tool coming in?"
+        }
+      ]
+    },
+    {
+      "speakerId": "914601933716097477565",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 26900,
+          "end": 32500,
+          "text": "That'd go to my manager, Roisin, but I haven't brought it to her yet."
+        },
+        {
+          "start": 32650,
+          "end": 35850,
+          "text": "I wanted to understand it better myself first."
+        }
+      ]
+    },
+    {
+      "speakerId": "985563596527224125259",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 36400,
+          "end": 37200,
+          "text": "Totally fair."
+        },
+        {
+          "start": 37350,
+          "end": 41750,
+          "text": "Would a short recorded walkthrough help you bring it to her?"
+        }
+      ]
+    },
+    {
+      "speakerId": "914601933716097477565",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 42300,
+          "end": 47500,
+          "text": "Yeah, that'd actually be perfect, she's hard to get on a live call."
+        }
+      ]
+    },
+    {
+      "speakerId": "985563596527224125259",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 48050,
+          "end": 50450,
+          "text": "I'll put that together this week."
+        },
+        {
+          "start": 50600,
+          "end": 54200,
+          "text": "Are you comparing this against anything else right now?"
+        }
+      ]
+    },
+    {
+      "speakerId": "914601933716097477565",
+      "topic": "Next Steps",
+      "sentences": [
+        {
+          "start": 54750,
+          "end": 59550,
+          "text": "Not really, this is the only thing I've looked at so far."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "callId": "3147116947365829158",
+  "callStartTime": "2026-07-23T14:30:00-07:00",
+  "durationSeconds": 48,
+  "parties": [
+    {
+      "speakerId": "544585005308626198450",
+      "name": "Nora Vance",
+      "emailAddress": "noravance@ourteam.example.com",
+      "affiliation": "Internal",
+      "title": "Account Executive"
+    },
+    {
+      "speakerId": "846233706751986321209",
+      "name": "Robyn Hattori",
+      "emailAddress": "robynhattori@palmerstonretailgroup.example.com",
+      "affiliation": "External",
+      "title": "People Ops Manager"
+    }
+  ],
+  "transcript": [
+    {
+      "speakerId": "544585005308626198450",
+      "topic": "Call Setup",
+      "sentences": [
+        {
+          "start": 0,
+          "end": 2000,
+          "text": "Robyn, thanks for hopping on."
+        },
+        {
+          "start": 2150,
+          "end": 4550,
+          "text": "What made you take this call?"
+        }
+      ]
+    },
+    {
+      "speakerId": "846233706751986321209",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 5100,
+          "end": 7500,
+          "text": "Honestly just curious what's out there."
+        },
+        {
+          "start": 7650,
+          "end": 13250,
+          "text": "We're not actively shopping for something new, someone mentioned your name at a conference."
+        }
+      ]
+    },
+    {
+      "speakerId": "544585005308626198450",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 13800,
+          "end": 16200,
+          "text": "Totally fair, no pressure at all."
+        },
+        {
+          "start": 16350,
+          "end": 19550,
+          "text": "What does your team use today for reviews?"
+        }
+      ]
+    },
+    {
+      "speakerId": "846233706751986321209",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 20100,
+          "end": 25700,
+          "text": "Mostly just a shared doc template and some sticky notes if I'm being honest."
+        }
+      ]
+    },
+    {
+      "speakerId": "544585005308626198450",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 26250,
+          "end": 27050,
+          "text": "Got it."
+        },
+        {
+          "start": 27200,
+          "end": 31600,
+          "text": "Is there a specific moment where that's caused a real problem?"
+        }
+      ]
+    },
+    {
+      "speakerId": "846233706751986321209",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 32150,
+          "end": 36550,
+          "text": "Not really a crisis moment, more just annoying day to day."
+        }
+      ]
+    },
+    {
+      "speakerId": "544585005308626198450",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 37100,
+          "end": 37500,
+          "text": "Understood."
+        },
+        {
+          "start": 37650,
+          "end": 44850,
+          "text": "I'll send over a quick overview and we can go from there whenever it makes sense for you."
+        }
+      ]
+    },
+    {
+      "speakerId": "846233706751986321209",
+      "topic": "Next Steps",
+      "sentences": [
+        {
+          "start": 45400,
+          "end": 47000,
+          "text": "Sounds good, appreciate it."
+        }
+      ]
+    }
+  ]
+}

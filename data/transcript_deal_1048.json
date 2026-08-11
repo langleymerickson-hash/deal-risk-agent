@@ -1,0 +1,152 @@
+{
+  "callId": "8444444408448525222",
+  "callStartTime": "2026-07-21T09:30:00-07:00",
+  "durationSeconds": 68,
+  "parties": [
+    {
+      "speakerId": "648416753654931886435",
+      "name": "Simone Achebe",
+      "emailAddress": "simoneachebe@ourteam.example.com",
+      "affiliation": "Internal",
+      "title": "Account Executive"
+    },
+    {
+      "speakerId": "199216447222746680481",
+      "name": "Callum Ndiaye",
+      "emailAddress": "callumndiaye@fairmountlogistics.example.com",
+      "affiliation": "External",
+      "title": "People Ops Coordinator"
+    }
+  ],
+  "transcript": [
+    {
+      "speakerId": "648416753654931886435",
+      "topic": "Call Setup",
+      "sentences": [
+        {
+          "start": 0,
+          "end": 2000,
+          "text": "Callum, good to catch up."
+        },
+        {
+          "start": 2150,
+          "end": 4150,
+          "text": "How's the extended trial going?"
+        }
+      ]
+    },
+    {
+      "speakerId": "199216447222746680481",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 4700,
+          "end": 5900,
+          "text": "It's going alright."
+        },
+        {
+          "start": 6050,
+          "end": 11250,
+          "text": "My managers like it more than what we've got now, that's for sure."
+        }
+      ]
+    },
+    {
+      "speakerId": "648416753654931886435",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 11800,
+          "end": 13000,
+          "text": "Good to hear."
+        },
+        {
+          "start": 13150,
+          "end": 16750,
+          "text": "Where do things go from here on your end?"
+        }
+      ]
+    },
+    {
+      "speakerId": "199216447222746680481",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 17300,
+          "end": 24900,
+          "text": "Honestly I'm not the one who decides on tools like this, I just run point on testing it out."
+        },
+        {
+          "start": 25050,
+          "end": 30250,
+          "text": "I'd have to bring whoever I report to into this at some point."
+        }
+      ]
+    },
+    {
+      "speakerId": "648416753654931886435",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 30800,
+          "end": 33600,
+          "text": "Got it, who would that typically be?"
+        }
+      ]
+    },
+    {
+      "speakerId": "199216447222746680481",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 34150,
+          "end": 38550,
+          "text": "Not totally sure yet, depends how far this goes I think."
+        }
+      ]
+    },
+    {
+      "speakerId": "648416753654931886435",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 39100,
+          "end": 43100,
+          "text": "No problem, we can figure that out as we go."
+        },
+        {
+          "start": 43250,
+          "end": 48850,
+          "text": "Is there anything specific driving the interest in switching, beyond the managers liking it?"
+        }
+      ]
+    },
+    {
+      "speakerId": "199216447222746680481",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 49400,
+          "end": 56600,
+          "text": "Mostly just review scheduling headaches honestly, half our managers forget cycles are even open until I remind them."
+        },
+        {
+          "start": 56750,
+          "end": 62750,
+          "text": "But I haven't really framed it as an official problem to anyone above me yet."
+        }
+      ]
+    },
+    {
+      "speakerId": "648416753654931886435",
+      "topic": "Next Steps",
+      "sentences": [
+        {
+          "start": 63300,
+          "end": 67300,
+          "text": "Understood, let's keep the trial going a bit longer then."
+        }
+      ]
+    }
+  ]
+}

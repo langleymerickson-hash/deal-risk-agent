@@ -1,0 +1,240 @@
+{
+  "callId": "1945351111358374057",
+  "callStartTime": "2026-07-02T09:00:00-07:00",
+  "durationSeconds": 128,
+  "parties": [
+    {
+      "speakerId": "784133269052610913332",
+      "name": "Theo Marchetti",
+      "emailAddress": "theomarchetti@ourteam.example.com",
+      "affiliation": "Internal",
+      "title": "Account Executive"
+    },
+    {
+      "speakerId": "119033031107407974809",
+      "name": "Devon Whitcombe",
+      "emailAddress": "devonwhitcombe@ironwoodcloudsoftware.example.com",
+      "affiliation": "External",
+      "title": "Director of People"
+    }
+  ],
+  "transcript": [
+    {
+      "speakerId": "784133269052610913332",
+      "topic": "Call Setup",
+      "sentences": [
+        {
+          "start": 0,
+          "end": 2400,
+          "text": "Thanks for hopping back on, Devon."
+        },
+        {
+          "start": 2550,
+          "end": 7350,
+          "text": "Last time we talked through the pilot with two of your teams."
+        },
+        {
+          "start": 7500,
+          "end": 10300,
+          "text": "Where are things sitting on your end?"
+        }
+      ]
+    },
+    {
+      "speakerId": "119033031107407974809",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 10850,
+          "end": 11650,
+          "text": "Good, honestly."
+        },
+        {
+          "start": 11800,
+          "end": 13400,
+          "text": "The managers are excited."
+        },
+        {
+          "start": 13550,
+          "end": 27950,
+          "text": "We ran the pilot review cycle with two of our squads last week and the feedback was really positive, way less back and forth over Slack and email trying to track down who'd actually submitted feedback."
+        }
+      ]
+    },
+    {
+      "speakerId": "784133269052610913332",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 28500,
+          "end": 30100,
+          "text": "That's great to hear."
+        },
+        {
+          "start": 30250,
+          "end": 33450,
+          "text": "Anything blocking you from moving toward a decision?"
+        }
+      ]
+    },
+    {
+      "speakerId": "119033031107407974809",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 34000,
+          "end": 35200,
+          "text": "Not blocking exactly."
+        },
+        {
+          "start": 35350,
+          "end": 38150,
+          "text": "I'm fully bought in at this point."
+        },
+        {
+          "start": 38300,
+          "end": 51100,
+          "text": "The main thing is I'll need to loop in our CFO before we can actually move forward, anything over six figures has to go through him, and he hasn't seen this yet."
+        }
+      ]
+    },
+    {
+      "speakerId": "784133269052610913332",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 51650,
+          "end": 52450,
+          "text": "Makes sense."
+        },
+        {
+          "start": 52600,
+          "end": 61000,
+          "text": "Is there a good time to get him on a call, or would a shorter async summary work better for him?"
+        }
+      ]
+    },
+    {
+      "speakerId": "119033031107407974809",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 61550,
+          "end": 63150,
+          "text": "Honestly probably async first."
+        },
+        {
+          "start": 63300,
+          "end": 66900,
+          "text": "He's heads down on our board deck this month."
+        },
+        {
+          "start": 67050,
+          "end": 74650,
+          "text": "I can forward him the proposal, but I haven't had a chance to actually walk him through it yet."
+        }
+      ]
+    },
+    {
+      "speakerId": "784133269052610913332",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 75200,
+          "end": 75600,
+          "text": "Understood."
+        },
+        {
+          "start": 75750,
+          "end": 78950,
+          "text": "What would help make that easier for him?"
+        }
+      ]
+    },
+    {
+      "speakerId": "119033031107407974809",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 79500,
+          "end": 83500,
+          "text": "Maybe a one-pager with the manager-hours-saved numbers we talked about."
+        },
+        {
+          "start": 83650,
+          "end": 90050,
+          "text": "He's going to care about cost versus what we're spending on the current spreadsheets-and-email approach today."
+        }
+      ]
+    },
+    {
+      "speakerId": "784133269052610913332",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 90600,
+          "end": 93400,
+          "text": "I can put that together this week."
+        },
+        {
+          "start": 93550,
+          "end": 100750,
+          "text": "Anything else on your side, procurement, security review, that kind of thing, since this does touch employee data?"
+        }
+      ]
+    },
+    {
+      "speakerId": "119033031107407974809",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 101300,
+          "end": 106100,
+          "text": "Security and our data processing agreement are already done, that was quick."
+        },
+        {
+          "start": 106250,
+          "end": 110250,
+          "text": "It's really just getting this in front of him now."
+        }
+      ]
+    },
+    {
+      "speakerId": "784133269052610913332",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 110800,
+          "end": 111600,
+          "text": "Got it."
+        },
+        {
+          "start": 111750,
+          "end": 114150,
+          "text": "I'll send the one-pager by Thursday."
+        },
+        {
+          "start": 114300,
+          "end": 120300,
+          "text": "Should we pencil in a check-in for early next week to see where he landed?"
+        }
+      ]
+    },
+    {
+      "speakerId": "119033031107407974809",
+      "topic": "Next Steps",
+      "sentences": [
+        {
+          "start": 120850,
+          "end": 122450,
+          "text": "Yeah, let's do that."
+        },
+        {
+          "start": 122600,
+          "end": 127000,
+          "text": "I want this wrapped before end of quarter if we can."
+        }
+      ]
+    }
+  ]
+}

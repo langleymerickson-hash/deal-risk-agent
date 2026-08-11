@@ -1,0 +1,183 @@
+{
+  "callId": "3704092307918063857",
+  "callStartTime": "2026-07-05T10:00:00-07:00",
+  "durationSeconds": 86,
+  "parties": [
+    {
+      "speakerId": "831019376349177699634",
+      "name": "Kwame Idris",
+      "emailAddress": "kwameidris@ourteam.example.com",
+      "affiliation": "Internal",
+      "title": "Account Executive"
+    },
+    {
+      "speakerId": "540170800310297360175",
+      "name": "Idris Bakshi",
+      "emailAddress": "idrisbakshi@millbrookindustrial.example.com",
+      "affiliation": "External",
+      "title": "HR Manager"
+    }
+  ],
+  "transcript": [
+    {
+      "speakerId": "831019376349177699634",
+      "topic": "Call Setup",
+      "sentences": [
+        {
+          "start": 0,
+          "end": 1600,
+          "text": "Thanks everyone for joining."
+        },
+        {
+          "start": 1750,
+          "end": 9350,
+          "text": "Idris, last time we spoke you mentioned you were still early in exploring options, where's the team at now?"
+        }
+      ]
+    },
+    {
+      "speakerId": "540170800310297360175",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 9900,
+          "end": 12300,
+          "text": "Yeah, we're still pretty early, honestly."
+        },
+        {
+          "start": 12450,
+          "end": 18050,
+          "text": "We've got a few tools on the list and we're just starting to compare."
+        }
+      ]
+    },
+    {
+      "speakerId": "831019376349177699634",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 18600,
+          "end": 19400,
+          "text": "Totally fair."
+        },
+        {
+          "start": 19550,
+          "end": 23150,
+          "text": "What's driving the timeline on this for you all?"
+        }
+      ]
+    },
+    {
+      "speakerId": "540170800310297360175",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 23700,
+          "end": 26900,
+          "text": "There's not a huge rush on our end."
+        },
+        {
+          "start": 27050,
+          "end": 33050,
+          "text": "Nothing's really broken today, we just think there's a better way to run reviews eventually."
+        }
+      ]
+    },
+    {
+      "speakerId": "831019376349177699634",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 33600,
+          "end": 34400,
+          "text": "Got it."
+        },
+        {
+          "start": 34550,
+          "end": 40550,
+          "text": "Who else besides this group would typically be involved once you start narrowing things down?"
+        }
+      ]
+    },
+    {
+      "speakerId": "540170800310297360175",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 41100,
+          "end": 42700,
+          "text": "Honestly not sure yet."
+        },
+        {
+          "start": 42850,
+          "end": 48850,
+          "text": "Depends what we land on, I guess it'd go up the chain at some point."
+        }
+      ]
+    },
+    {
+      "speakerId": "831019376349177699634",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 49400,
+          "end": 50200,
+          "text": "No problem."
+        },
+        {
+          "start": 50350,
+          "end": 55150,
+          "text": "Is there anything specific you're comparing across the tools you're looking at?"
+        }
+      ]
+    },
+    {
+      "speakerId": "540170800310297360175",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 55700,
+          "end": 61300,
+          "text": "Mostly just seeing what fits without overhauling too much of what we already do."
+        },
+        {
+          "start": 61450,
+          "end": 64250,
+          "text": "Nothing's really jumped out yet either direction."
+        }
+      ]
+    },
+    {
+      "speakerId": "831019376349177699634",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 64800,
+          "end": 66000,
+          "text": "That's helpful context."
+        },
+        {
+          "start": 66150,
+          "end": 76550,
+          "text": "Would it make sense to put together a short comparison of how we handle the specific review workflow you mentioned last time, versus doing it manually?"
+        }
+      ]
+    },
+    {
+      "speakerId": "540170800310297360175",
+      "topic": "Next Steps",
+      "sentences": [
+        {
+          "start": 77100,
+          "end": 79100,
+          "text": "Sure, that could be useful."
+        },
+        {
+          "start": 79250,
+          "end": 85250,
+          "text": "No promises on timing though, this isn't the only thing on our plate right now."
+        }
+      ]
+    }
+  ]
+}

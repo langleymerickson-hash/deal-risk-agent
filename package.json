@@ -1,0 +1,23 @@
+{
+  "name": "deal-risk-agent",
+  "version": "0.1.0",
+  "description": "Agent that reconciles CRM deal data against call transcripts to produce a risk tier, evidence-grounded reasoning, and a recommended next action per deal.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

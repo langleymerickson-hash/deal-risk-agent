@@ -1,0 +1,168 @@
+{
+  "callId": "6994125922663206833",
+  "callStartTime": "2026-07-10T13:00:00-07:00",
+  "durationSeconds": 73,
+  "parties": [
+    {
+      "speakerId": "589667741984127322252",
+      "name": "Kwame Idris",
+      "emailAddress": "kwameidris@ourteam.example.com",
+      "affiliation": "Internal",
+      "title": "Account Executive"
+    },
+    {
+      "speakerId": "790815975002555206624",
+      "name": "Leyla Osman",
+      "emailAddress": "leylaosman@amberfieldholdings.example.com",
+      "affiliation": "External",
+      "title": "People Ops Manager"
+    }
+  ],
+  "transcript": [
+    {
+      "speakerId": "589667741984127322252",
+      "topic": "Call Setup",
+      "sentences": [
+        {
+          "start": 0,
+          "end": 2000,
+          "text": "Leyla, good to see you."
+        },
+        {
+          "start": 2150,
+          "end": 5750,
+          "text": "Where'd things land after you looped in the committee?"
+        }
+      ]
+    },
+    {
+      "speakerId": "790815975002555206624",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 6300,
+          "end": 7900,
+          "text": "It went pretty well."
+        },
+        {
+          "start": 8050,
+          "end": 17250,
+          "text": "Grant, our COO, is the one who ultimately signs off, and he's leaning positive, but he wants the committee's read before he commits."
+        }
+      ]
+    },
+    {
+      "speakerId": "589667741984127322252",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 17800,
+          "end": 18200,
+          "text": "Understood."
+        },
+        {
+          "start": 18350,
+          "end": 23550,
+          "text": "Did anything come up in that discussion around what matters most to them?"
+        }
+      ]
+    },
+    {
+      "speakerId": "790815975002555206624",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 24100,
+          "end": 33700,
+          "text": "Mostly migrating our historical review data over without losing anything, and honestly, how fast your support team responds when a manager gets stuck mid-cycle."
+        }
+      ]
+    },
+    {
+      "speakerId": "589667741984127322252",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 34250,
+          "end": 39050,
+          "text": "Good to know, I can get you our SLA specifics for that."
+        },
+        {
+          "start": 39200,
+          "end": 44000,
+          "text": "I know you've also been looking at Ridgeline Perform, how's that comparison going?"
+        }
+      ]
+    },
+    {
+      "speakerId": "790815975002555206624",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 44550,
+          "end": 48150,
+          "text": "Yeah, we ran a short eval with them too."
+        },
+        {
+          "start": 48300,
+          "end": 54300,
+          "text": "Committee felt their support model was slower to respond, which worked in your favor honestly."
+        }
+      ]
+    },
+    {
+      "speakerId": "589667741984127322252",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 54850,
+          "end": 55650,
+          "text": "That's helpful."
+        },
+        {
+          "start": 55800,
+          "end": 58600,
+          "text": "Where does legal sit in all this?"
+        }
+      ]
+    },
+    {
+      "speakerId": "790815975002555206624",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 59150,
+          "end": 63550,
+          "text": "Honestly haven't gotten there yet, we're still in the committee stage."
+        }
+      ]
+    },
+    {
+      "speakerId": "589667741984127322252",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 64100,
+          "end": 66900,
+          "text": "Got it, no rush on that then."
+        },
+        {
+          "start": 67050,
+          "end": 69450,
+          "text": "When's the committee expected to land?"
+        }
+      ]
+    },
+    {
+      "speakerId": "790815975002555206624",
+      "topic": "Next Steps",
+      "sentences": [
+        {
+          "start": 70000,
+          "end": 72400,
+          "text": "Should be mid-August, they meet monthly."
+        }
+      ]
+    }
+  ]
+}

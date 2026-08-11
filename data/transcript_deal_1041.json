@@ -1,0 +1,210 @@
+{
+  "callId": "2026847926404610461",
+  "callStartTime": "2026-07-20T14:00:00-07:00",
+  "durationSeconds": 110,
+  "parties": [
+    {
+      "speakerId": "427273841618135227089",
+      "name": "Nora Vance",
+      "emailAddress": "noravance@ourteam.example.com",
+      "affiliation": "Internal",
+      "title": "Account Executive"
+    },
+    {
+      "speakerId": "251691464061534419856",
+      "name": "Farrah Okonkwo",
+      "emailAddress": "farrahokonkwo@alderfieldanalytics.example.com",
+      "affiliation": "External",
+      "title": "People Ops Lead"
+    }
+  ],
+  "transcript": [
+    {
+      "speakerId": "427273841618135227089",
+      "topic": "Call Setup",
+      "sentences": [
+        {
+          "start": 0,
+          "end": 2400,
+          "text": "Hey Farrah, thanks for jumping on."
+        },
+        {
+          "start": 2550,
+          "end": 10150,
+          "text": "Last time we talked about how review season's been going for your team, how's that sitting with everyone now?"
+        }
+      ]
+    },
+    {
+      "speakerId": "251691464061534419856",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 10700,
+          "end": 11500,
+          "text": "Good, honestly."
+        },
+        {
+          "start": 11650,
+          "end": 18050,
+          "text": "I showed a couple of my managers the review template mockup and they were pretty excited."
+        },
+        {
+          "start": 18200,
+          "end": 26600,
+          "text": "Right now everything lives across shared docs and email threads and half the feedback never actually makes it into one place."
+        }
+      ]
+    },
+    {
+      "speakerId": "427273841618135227089",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 27150,
+          "end": 30750,
+          "text": "That's exactly the review sprawl problem we talked about."
+        },
+        {
+          "start": 30900,
+          "end": 40500,
+          "text": "Is the priority more about getting everyone to actually complete reviews on time, or is it more about the quality of the feedback itself?"
+        }
+      ]
+    },
+    {
+      "speakerId": "251691464061534419856",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 41050,
+          "end": 47050,
+          "text": "Honestly it's more about consistency and actually having a record we can look back on."
+        },
+        {
+          "start": 47200,
+          "end": 54800,
+          "text": "If it also saves managers time that's a nice bonus, but it's not the main thing I'd pitch internally."
+        }
+      ]
+    },
+    {
+      "speakerId": "427273841618135227089",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 55350,
+          "end": 58950,
+          "text": "Got it, I'll build the case around consistency then."
+        },
+        {
+          "start": 59100,
+          "end": 63500,
+          "text": "Who else needs to see this before it can move forward?"
+        }
+      ]
+    },
+    {
+      "speakerId": "251691464061534419856",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 64050,
+          "end": 69250,
+          "text": "Our VP of People, Graham, owns the budget for anything in this range."
+        },
+        {
+          "start": 69400,
+          "end": 76200,
+          "text": "He hasn't seen it yet, I've been wanting to get further along before I loop him in."
+        }
+      ]
+    },
+    {
+      "speakerId": "427273841618135227089",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 76750,
+          "end": 77550,
+          "text": "Makes sense."
+        },
+        {
+          "start": 77700,
+          "end": 82500,
+          "text": "Would it help if I put together something short specifically for him?"
+        }
+      ]
+    },
+    {
+      "speakerId": "251691464061534419856",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 83050,
+          "end": 84650,
+          "text": "Yeah, that'd be great."
+        },
+        {
+          "start": 84800,
+          "end": 89200,
+          "text": "He's going to want to know this isn't just a nice-to-have."
+        }
+      ]
+    },
+    {
+      "speakerId": "427273841618135227089",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 89750,
+          "end": 90150,
+          "text": "Understood."
+        },
+        {
+          "start": 90300,
+          "end": 97100,
+          "text": "Anything on the legal or security side we should get ahead of, given this touches employee data?"
+        }
+      ]
+    },
+    {
+      "speakerId": "251691464061534419856",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 97650,
+          "end": 101650,
+          "text": "Nothing's come up yet, we're pretty early in that sense."
+        }
+      ]
+    },
+    {
+      "speakerId": "427273841618135227089",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 102200,
+          "end": 103000,
+          "text": "Got it."
+        },
+        {
+          "start": 103150,
+          "end": 107550,
+          "text": "I'll get you that one-pager for Graham by end of week."
+        }
+      ]
+    },
+    {
+      "speakerId": "251691464061534419856",
+      "topic": "Next Steps",
+      "sentences": [
+        {
+          "start": 108100,
+          "end": 109300,
+          "text": "Perfect, that works."
+        }
+      ]
+    }
+  ]
+}

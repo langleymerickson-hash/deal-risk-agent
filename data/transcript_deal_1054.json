@@ -1,0 +1,136 @@
+{
+  "callId": "7725007747957220359",
+  "callStartTime": "2026-07-25T15:30:00-07:00",
+  "durationSeconds": 53,
+  "parties": [
+    {
+      "speakerId": "637969822122952617419",
+      "name": "Simone Achebe",
+      "emailAddress": "simoneachebe@ourteam.example.com",
+      "affiliation": "Internal",
+      "title": "Account Executive"
+    },
+    {
+      "speakerId": "923462650964238299042",
+      "name": "Miriam Kessler",
+      "emailAddress": "miriamkessler@thornecroftlegal.example.com",
+      "affiliation": "External",
+      "title": "Office Manager"
+    }
+  ],
+  "transcript": [
+    {
+      "speakerId": "637969822122952617419",
+      "topic": "Call Setup",
+      "sentences": [
+        {
+          "start": 0,
+          "end": 2000,
+          "text": "Miriam, thanks for booking time."
+        },
+        {
+          "start": 2150,
+          "end": 4950,
+          "text": "What prompted you to look into this?"
+        }
+      ]
+    },
+    {
+      "speakerId": "923462650964238299042",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 5500,
+          "end": 12300,
+          "text": "Honestly one of our partners asked me to look around after hearing a peer firm mention it."
+        }
+      ]
+    },
+    {
+      "speakerId": "637969822122952617419",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 12850,
+          "end": 13650,
+          "text": "Got it."
+        },
+        {
+          "start": 13800,
+          "end": 18600,
+          "text": "What's the day to day pain that comes up for your team?"
+        }
+      ]
+    },
+    {
+      "speakerId": "923462650964238299042",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 19150,
+          "end": 23950,
+          "text": "We're still figuring that out honestly, this is pretty early for us."
+        },
+        {
+          "start": 24100,
+          "end": 29300,
+          "text": "Right now associate reviews just happen whenever a partner remembers to do them."
+        }
+      ]
+    },
+    {
+      "speakerId": "637969822122952617419",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 29850,
+          "end": 31450,
+          "text": "No worries at all."
+        },
+        {
+          "start": 31600,
+          "end": 35600,
+          "text": "Who else would typically be involved as this moves along?"
+        }
+      ]
+    },
+    {
+      "speakerId": "923462650964238299042",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 36150,
+          "end": 43350,
+          "text": "Probably the partners, but I haven't looped anyone in yet, wanted to get a feel for it first."
+        }
+      ]
+    },
+    {
+      "speakerId": "637969822122952617419",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 43900,
+          "end": 44700,
+          "text": "Totally reasonable."
+        },
+        {
+          "start": 44850,
+          "end": 50850,
+          "text": "I'll send over some background and we can set up a deeper dive whenever works."
+        }
+      ]
+    },
+    {
+      "speakerId": "923462650964238299042",
+      "topic": "Next Steps",
+      "sentences": [
+        {
+          "start": 51400,
+          "end": 52600,
+          "text": "Sounds good, thanks."
+        }
+      ]
+    }
+  ]
+}

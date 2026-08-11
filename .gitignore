@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.DS_Store
+
+# Batch output is gitignored by default (regenerated per run), except the
+# committed sample results so readers can see real output without an API key.
+output/*
+!output/deal_risk_output.json
+!output/salesforce_updates.json

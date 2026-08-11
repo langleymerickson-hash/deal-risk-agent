@@ -1,0 +1,158 @@
+{
+  "callId": "2773549186211207615",
+  "callStartTime": "2026-07-15T11:30:00-07:00",
+  "durationSeconds": 73,
+  "parties": [
+    {
+      "speakerId": "138176554250816901616",
+      "name": "Wes Callahan",
+      "emailAddress": "wescallahan@ourteam.example.com",
+      "affiliation": "Internal",
+      "title": "Account Executive"
+    },
+    {
+      "speakerId": "210407849657903699021",
+      "name": "Tobias Kwan",
+      "emailAddress": "tobiaskwan@westbracemutualinsurance.example.com",
+      "affiliation": "External",
+      "title": "Director of People"
+    }
+  ],
+  "transcript": [
+    {
+      "speakerId": "138176554250816901616",
+      "topic": "Call Setup",
+      "sentences": [
+        {
+          "start": 0,
+          "end": 2000,
+          "text": "Tobias, good to see you."
+        },
+        {
+          "start": 2150,
+          "end": 5750,
+          "text": "Where'd things land with Petra after the last review?"
+        }
+      ]
+    },
+    {
+      "speakerId": "210407849657903699021",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 6300,
+          "end": 7500,
+          "text": "She's on board."
+        },
+        {
+          "start": 7650,
+          "end": 12050,
+          "text": "Legal's actually the one holding things up right now, not finance."
+        }
+      ]
+    },
+    {
+      "speakerId": "138176554250816901616",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 12600,
+          "end": 15800,
+          "text": "Got it, what's the sticking point with legal?"
+        }
+      ]
+    },
+    {
+      "speakerId": "210407849657903699021",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 16350,
+          "end": 25150,
+          "text": "Mostly the data retention clause, they want it to match our existing policy exactly and we've gone back and forth twice already."
+        }
+      ]
+    },
+    {
+      "speakerId": "138176554250816901616",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 25700,
+          "end": 34100,
+          "text": "Understood, I can get our legal team to jump on a call directly with yours if that'd help move it faster."
+        }
+      ]
+    },
+    {
+      "speakerId": "210407849657903699021",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 34650,
+          "end": 39050,
+          "text": "That'd actually be great, might save us a round or two."
+        }
+      ]
+    },
+    {
+      "speakerId": "138176554250816901616",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 39600,
+          "end": 41200,
+          "text": "I'll set that up."
+        },
+        {
+          "start": 41350,
+          "end": 46950,
+          "text": "Remind me, what's the core problem this solves for your team day to day?"
+        }
+      ]
+    },
+    {
+      "speakerId": "210407849657903699021",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 47500,
+          "end": 53500,
+          "text": "We're a regulated business, so we need a documented, auditable trail for every review cycle."
+        },
+        {
+          "start": 53650,
+          "end": 61250,
+          "text": "Right now pulling that together for an audit takes days because it's all scattered across email and shared drives."
+        }
+      ]
+    },
+    {
+      "speakerId": "138176554250816901616",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 61800,
+          "end": 67400,
+          "text": "That's helpful, I'll make sure that's front and center in what I send legal."
+        },
+        {
+          "start": 67550,
+          "end": 68750,
+          "text": "Anything else outstanding?"
+        }
+      ]
+    },
+    {
+      "speakerId": "210407849657903699021",
+      "topic": "Next Steps",
+      "sentences": [
+        {
+          "start": 69300,
+          "end": 72500,
+          "text": "I think that's really it at this point."
+        }
+      ]
+    }
+  ]
+}

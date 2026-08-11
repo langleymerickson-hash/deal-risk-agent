@@ -1,0 +1,188 @@
+{
+  "callId": "9639113705720282878",
+  "callStartTime": "2026-07-17T13:30:00-07:00",
+  "durationSeconds": 101,
+  "parties": [
+    {
+      "speakerId": "185741119237556861656",
+      "name": "Kwame Idris",
+      "emailAddress": "kwameidris@ourteam.example.com",
+      "affiliation": "Internal",
+      "title": "Account Executive"
+    },
+    {
+      "speakerId": "296180722703808856691",
+      "name": "Talia Grunwald",
+      "emailAddress": "taliagrunwald@bellcresthealthgroup.example.com",
+      "affiliation": "External",
+      "title": "Head of People Ops"
+    }
+  ],
+  "transcript": [
+    {
+      "speakerId": "185741119237556861656",
+      "topic": "Call Setup",
+      "sentences": [
+        {
+          "start": 0,
+          "end": 2000,
+          "text": "Talia, good to see you."
+        },
+        {
+          "start": 2150,
+          "end": 6550,
+          "text": "Sounds like things have been moving well since we last talked?"
+        }
+      ]
+    },
+    {
+      "speakerId": "296180722703808856691",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 7100,
+          "end": 8700,
+          "text": "Yes, really well actually."
+        },
+        {
+          "start": 8850,
+          "end": 15650,
+          "text": "I looped Desmond in, he's our CFO, and he signed off on the budget range we discussed."
+        },
+        {
+          "start": 15800,
+          "end": 19800,
+          "text": "That was the last real hurdle on the finance side."
+        }
+      ]
+    },
+    {
+      "speakerId": "185741119237556861656",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 20350,
+          "end": 21550,
+          "text": "That's great news."
+        },
+        {
+          "start": 21700,
+          "end": 24900,
+          "text": "Anything left before we can move to paperwork?"
+        }
+      ]
+    },
+    {
+      "speakerId": "296180722703808856691",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 25450,
+          "end": 30650,
+          "text": "Just want to confirm the integration piece works cleanly with our existing HRIS."
+        },
+        {
+          "start": 30800,
+          "end": 38400,
+          "text": "That's the one thing my team keeps asking about, since it's central to how we operate day to day."
+        }
+      ]
+    },
+    {
+      "speakerId": "185741119237556861656",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 38950,
+          "end": 44150,
+          "text": "Understood, I'll get our solutions engineer to confirm the integration specifics this week."
+        },
+        {
+          "start": 44300,
+          "end": 46300,
+          "text": "Anything else on your end?"
+        }
+      ]
+    },
+    {
+      "speakerId": "296180722703808856691",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 46850,
+          "end": 49650,
+          "text": "No, I think we're in good shape."
+        },
+        {
+          "start": 49800,
+          "end": 54200,
+          "text": "Honestly this has been one of the smoother evaluations I've run."
+        },
+        {
+          "start": 54350,
+          "end": 70750,
+          "text": "Funny enough, I might not even be the one managing it day-to-day for much longer, there's a decent chance I move into a new role next quarter, so I want to make sure whoever picks this up has an easy handoff."
+        }
+      ]
+    },
+    {
+      "speakerId": "185741119237556861656",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 71300,
+          "end": 74500,
+          "text": "Good to know, who would that likely be?"
+        }
+      ]
+    },
+    {
+      "speakerId": "296180722703808856691",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 75050,
+          "end": 79450,
+          "text": "Not fully decided yet, could be someone on my current team."
+        },
+        {
+          "start": 79600,
+          "end": 85200,
+          "text": "I'll make sure there's a clean handoff either way, just wanted to flag it."
+        }
+      ]
+    },
+    {
+      "speakerId": "185741119237556861656",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 85750,
+          "end": 87350,
+          "text": "Appreciate you flagging that."
+        },
+        {
+          "start": 87500,
+          "end": 94300,
+          "text": "I'll make sure the docs and rollout plan are in good shape for whoever takes it on."
+        }
+      ]
+    },
+    {
+      "speakerId": "296180722703808856691",
+      "topic": "Next Steps",
+      "sentences": [
+        {
+          "start": 94850,
+          "end": 95650,
+          "text": "Sounds good."
+        },
+        {
+          "start": 95800,
+          "end": 100600,
+          "text": "Let's plan to close this out once the integration piece is confirmed."
+        }
+      ]
+    }
+  ]
+}

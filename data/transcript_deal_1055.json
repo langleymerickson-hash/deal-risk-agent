@@ -1,0 +1,195 @@
+{
+  "callId": "3025592422697026105",
+  "callStartTime": "2026-07-12T10:30:00-07:00",
+  "durationSeconds": 103,
+  "parties": [
+    {
+      "speakerId": "169654904093629493964",
+      "name": "Wes Callahan",
+      "emailAddress": "wescallahan@ourteam.example.com",
+      "affiliation": "Internal",
+      "title": "Account Executive"
+    },
+    {
+      "speakerId": "152053070321989903609",
+      "name": "Nikolai Farrow",
+      "emailAddress": "nikolaifarrow@redshawfreight.example.com",
+      "affiliation": "External",
+      "title": "People Ops Manager"
+    }
+  ],
+  "transcript": [
+    {
+      "speakerId": "169654904093629493964",
+      "topic": "Call Setup",
+      "sentences": [
+        {
+          "start": 0,
+          "end": 1600,
+          "text": "Nikolai, good to connect."
+        },
+        {
+          "start": 1750,
+          "end": 11350,
+          "text": "Last time we talked you mentioned reviews look pretty different between your office staff and your driver network, can you say more about that?"
+        }
+      ]
+    },
+    {
+      "speakerId": "152053070321989903609",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 11900,
+          "end": 14300,
+          "text": "Yeah, that's really the core issue."
+        },
+        {
+          "start": 14450,
+          "end": 28450,
+          "text": "Office staff get a decent review process today, but our drivers and warehouse crews barely get anything consistent, most managers just don't have an easy way to do it from the road or the floor."
+        }
+      ]
+    },
+    {
+      "speakerId": "169654904093629493964",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 29000,
+          "end": 34200,
+          "text": "Got it, so mobile-friendly access is a big part of this for you."
+        }
+      ]
+    },
+    {
+      "speakerId": "152053070321989903609",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 34750,
+          "end": 35150,
+          "text": "Exactly."
+        },
+        {
+          "start": 35300,
+          "end": 42900,
+          "text": "If a manager can't pull it up on their phone in the yard, it's not going to get used."
+        }
+      ]
+    },
+    {
+      "speakerId": "169654904093629493964",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 43450,
+          "end": 44250,
+          "text": "That's helpful."
+        },
+        {
+          "start": 44400,
+          "end": 48800,
+          "text": "Who else needs to be involved before this can move forward?"
+        }
+      ]
+    },
+    {
+      "speakerId": "152053070321989903609",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 49350,
+          "end": 53750,
+          "text": "Odalys, our VP of Finance, owns budget for anything like this."
+        },
+        {
+          "start": 53900,
+          "end": 59500,
+          "text": "She's supportive so far, just wants to see the final numbers before she signs."
+        }
+      ]
+    },
+    {
+      "speakerId": "169654904093629493964",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 60050,
+          "end": 63650,
+          "text": "Understood, I'll get you something to bring to her."
+        },
+        {
+          "start": 63800,
+          "end": 67400,
+          "text": "Are you comparing this against anything else right now?"
+        }
+      ]
+    },
+    {
+      "speakerId": "152053070321989903609",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 67950,
+          "end": 76350,
+          "text": "We took a quick look at Fieldnote, but it felt pretty lightweight for what we need across this many frontline staff."
+        }
+      ]
+    },
+    {
+      "speakerId": "169654904093629493964",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 76900,
+          "end": 78100,
+          "text": "Good to know."
+        },
+        {
+          "start": 78250,
+          "end": 83050,
+          "text": "Anything on the security or legal side we should get ahead of?"
+        }
+      ]
+    },
+    {
+      "speakerId": "152053070321989903609",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 83600,
+          "end": 91600,
+          "text": "Our security team mentioned they'd want to review things given the driver data involved, but that hasn't kicked off yet."
+        }
+      ]
+    },
+    {
+      "speakerId": "169654904093629493964",
+      "topic": "Discussion",
+      "sentences": [
+        {
+          "start": 92150,
+          "end": 96550,
+          "text": "Got it, I'll flag that so we're ready when it does."
+        },
+        {
+          "start": 96700,
+          "end": 100300,
+          "text": "I'll get you those numbers for Odalys this week."
+        }
+      ]
+    },
+    {
+      "speakerId": "152053070321989903609",
+      "topic": "Next Steps",
+      "sentences": [
+        {
+          "start": 100850,
+          "end": 102450,
+          "text": "Sounds good, appreciate it."
+        }
+      ]
+    }
+  ]
+}
