@@ -131,11 +131,21 @@ close_date: ${formatFieldCheck(integrity.close_date)}
 forecast_category: ${formatFieldCheck(integrity.forecast_category)}
 stage: ${formatFieldCheck(integrity.stage)}`;
 
+  const daysToClose = daysUntil(row.close_date);
+  const underCloseWindow = daysToClose < NEAR_TERM_CLOSE_WINDOW_DAYS;
+  const closeWindowVerdict = underCloseWindow
+    ? `UNDER the ${NEAR_TERM_CLOSE_WINDOW_DAYS}-day threshold — stage-normal MEDDPICC gaps do NOT ` +
+      `qualify for Green here, they are risk (Yellow at minimum) per the Yellow tier definition. ` +
+      `This is a precomputed verdict, not a suggestion — do not reason your way back to Green ` +
+      `for this deal on the basis of "normal for this stage" alone.`
+    : `AT OR ABOVE the ${NEAR_TERM_CLOSE_WINDOW_DAYS}-day threshold — stage-normal MEDDPICC gaps ` +
+      `may still qualify for Green, per the Green tier definition.`;
+
   const crmContext = `stage: ${row.stage}
 days_in_stage: ${row.days_in_stage}
 last_activity_date: ${row.last_activity_date}
 close_date: ${row.close_date}
-days_to_close: ${daysUntil(row.close_date)} (precomputed — use this, don't recompute from dates)
+days_to_close: ${daysToClose} (precomputed — use this, don't recompute from dates) — ${closeWindowVerdict}
 forecast_category: ${row.forecast_category}
 probability_pct: ${row.probability_pct}
 next_steps: ${row.next_steps || "(blank)"}
