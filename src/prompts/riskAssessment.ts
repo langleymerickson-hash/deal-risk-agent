@@ -41,10 +41,27 @@ forecasting depends on the way arr/close_date do.
 determine the tier purely from the logic below.
 
 ## Reference: MEDDPICC field expectations by stage
-Not every MEDDPICC gap means the same thing — it depends how far the deal has progressed. A gap \
-that's normal for the current stage is not risk; the same gap after the stage where it should be \
-resolved is. Judge each field in the reconciled MEDDPICC extraction against the deal's stage (CRM \
-deal metadata):
+Not every MEDDPICC gap means the same thing — it depends how far the deal has actually \
+progressed. A gap that's normal for the current stage is not risk; the same gap after the stage \
+where it should be resolved is.
+
+Which stage to judge against is NOT always the CRM's stage field — resolve it first:
+- If the data integrity check above marked stage as "contradicted", the CRM label is already \
+known to be wrong. Do NOT use it here — that would judge the deal against a stage you've already \
+established is false, and penalize the same lie twice (once via the floor above, again via a \
+gap that only looks overdue because the wrong stage set the bar too high). Instead, infer the \
+deal's actual current stage yourself from the transcript, using these definitions (the same ones \
+the integrity check used):
+  - Discovery: meeting scheduled through meeting held.
+  - Evaluation: meeting held, client is evaluating the product.
+  - Proposal: client has received a contract with commercial terms, ready for signature.
+  - Negotiation: client has returned redlines or begun negotiating commercials (price, \
+packaging, etc).
+- If stage is "not_discussed" or "consistent", the CRM's stated stage is reliable — use it \
+as-is.
+
+Judge every field below against whichever stage that resolves to — call it the deal's \
+**effective stage** for the rest of this section:
 
 - metrics, economic_buyer, decision_criteria, identify_pain, competition: possible (not expected) \
 in Discovery; MUST be known from Evaluation onward.
@@ -52,12 +69,12 @@ in Discovery; MUST be known from Evaluation onward.
 - decision_process, paper_process: unlikely in Discovery; possible in Evaluation; likely in \
 Proposal; MUST be known in Negotiation.
 
-A field missing when MUST for the current stage is a real, standalone risk signal. A field \
-missing when "likely" for the current stage is a soft gap — worth naming in reasoning, not alone \
-disqualifying. A field missing when "possible" or "unlikely" for the current stage is normal, not \
-itself a risk signal — UNLESS days_to_close is under ${NEAR_TERM_CLOSE_WINDOW_DAYS} (see \
-Yellow/Green below), in which case even a stage-normal gap becomes risk: there isn't enough \
-runway left for "normal for this stage" to still apply.
+A field missing when MUST for the effective stage is a real, standalone risk signal. A field \
+missing when "likely" for the effective stage is a soft gap — worth naming in reasoning, not \
+alone disqualifying. A field missing when "possible" or "unlikely" for the effective stage is \
+normal, not itself a risk signal — UNLESS the close-window verdict below says otherwise, in \
+which case even an effective-stage-normal gap becomes risk: there isn't enough runway left for \
+"normal for this stage" to still apply.
 
 A named-but-hollow economic_buyer or champion counts as MISSING for this purpose, not present — \
 judge substance, not just whether the field is non-null. If the transcript shows the named person \
@@ -69,27 +86,28 @@ regardless of what name is on file.
 
 ## Risk tiers (used directly, or to resolve the tier within any floor set above)
 - Red: the deal is actively at risk of slipping or being lost — e.g. economic_buyer or champion \
-missing when MUST for the current stage per the reference above, an active competitor threat with \
-no differentiation plan, a reversed timeline, unresolved budget/pricing objections, or a stalled \
-decision process relative to days_in_stage and close_date. "Stalled relative to close_date" \
-requires a CONCRETE stated fact that completion by close_date isn't realistic — e.g. the next \
-required milestone (a committee meeting, a board date) is itself on or after close_date, or \
-someone explicitly says the timeline won't be met. General tightness (limited days_to_close, a \
+missing when MUST for the effective stage per the reference above, an active competitor threat \
+with no differentiation plan, a reversed timeline, unresolved budget/pricing objections, or a \
+stalled decision process relative to days_in_stage and close_date. "Stalled relative to \
+close_date" requires a CONCRETE stated fact that completion by close_date isn't realistic — e.g. \
+the next required milestone (a committee meeting, a board date) is itself on or after close_date, \
+or someone explicitly says the timeline won't be met. General tightness (limited days_to_close, a \
 gap still open) is NOT by itself this trigger — that's already what the days_to_close/MEDDPICC \
 rules below and the data integrity floor account for. Don't double-count ordinary tightness as an \
 additional, separate reason to escalate past whatever those already produce; only escalate here \
 when there's a specific fact showing the deal literally cannot close on time.
-- Yellow: real gaps or open risks exist — a MUST-for-stage MEDDPICC field other than \
-economic_buyer/champion is missing, a "likely"-for-stage field is missing, an unconfirmed but not \
-alarming competitive situation, a process step in progress — but there's no single disqualifying \
-signal and momentum is still plausible. Also includes deals with fewer than \
+- Yellow: real gaps or open risks exist — a MUST-for-effective-stage MEDDPICC field other than \
+economic_buyer/champion is missing, a "likely"-for-effective-stage field is missing, an \
+unconfirmed but not alarming competitive situation, a process step in progress — but there's no \
+single disqualifying signal and momentum is still plausible. Also includes deals with fewer than \
 ${NEAR_TERM_CLOSE_WINDOW_DAYS} days_to_close where ANY MEDDPICC field is still undetermined, even \
-one that would otherwise be a normal, stage-expected gap — there isn't enough runway left for \
-"normal" to excuse it.
-- Green: no MUST-for-stage MEDDPICC gaps, a decision/paper process appropriate for the stage, and \
-no material unresolved objection or competitive threat in the transcript. Early-stage deals with \
-normal, stage-expected MEDDPICC gaps (e.g. a first discovery call) are also Green rather than \
-Yellow — PROVIDED days_to_close is ${NEAR_TERM_CLOSE_WINDOW_DAYS} or more. Not knowing the \
+one that would otherwise be a normal, effective-stage-expected gap — there isn't enough runway \
+left for "normal" to excuse it.
+- Green: no MUST-for-effective-stage MEDDPICC gaps, a decision/paper process appropriate for the \
+effective stage, and no material unresolved objection or competitive threat in the transcript. \
+Early-effective-stage deals with normal, stage-expected MEDDPICC gaps (e.g. a first discovery \
+call) are also Green rather than Yellow — PROVIDED days_to_close is \
+${NEAR_TERM_CLOSE_WINDOW_DAYS} or more. Not knowing the \
 economic buyer on day 5 of Discovery with two months of runway is normal, not risk; not knowing \
 it with three weeks of runway left is risk (see Yellow above).
 

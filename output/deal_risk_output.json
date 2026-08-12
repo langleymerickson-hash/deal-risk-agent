@@ -2,16 +2,16 @@
   {
     "deal_id": "1041",
     "company": "Alderfield Analytics",
-    "risk_tier": "Yellow",
-    "reasoning": "Stage is contradicted (Farrah's talk of a mockup shown to managers and \"wanting to get further along before looping in\" Graham reflects pre-evaluation engagement, not active Evaluation), which caps this deal below Green, and economic_buyer Graham \"hasn't seen it yet\" while champion Farrah is deliberately delaying his involvement — both MUST-have fields for Evaluation are effectively unconfirmed, further reinforced by only 20 days_to_close leaving no runway for these gaps to close.",
-    "recommended_action": "Correct the stage in the CRM from Evaluation back to Discovery given no product evaluation has occurred yet, and have Nora deliver the Graham-specific one-pager immediately to accelerate looping in the economic buyer given only 20 days remain to close.",
+    "risk_tier": "Red",
+    "reasoning": "Stage is contradicted — CRM shows Evaluation but Graham (the economic buyer) \"hasn't seen it yet\" and Farrah wants to build a business case before even looping him in, meaning the deal is really still in Discovery. Judged against the true Discovery stage, economic_buyer is missing (Graham disclaims engagement) and champion Farrah admits she hasn't raised it internally yet, and with only 20 days_to_close there's no runway for these normally-acceptable early gaps, so this independently supports Red beyond the Yellow floor.",
+    "recommended_action": "Correct the stage in the CRM from Evaluation back to Discovery since Graham hasn't reviewed anything yet, and have Nora deliver the one-pager to Farrah this week specifically to get a direct meeting with Graham scheduled before close_date of Aug 15.",
     "meddpicc": {
       "metrics": null,
-      "economic_buyer": "Graham, VP of People, owns the budget but has not yet seen the proposal",
-      "decision_criteria": "Ease of manager adoption; transcript indicates actual priority is consistency and having a record to look back on, with time savings as secondary",
-      "decision_process": "Farrah wants to get further along before looping in Graham (VP of People); a one-pager is being prepared to bring him in",
-      "paper_process": "Nothing identified yet on legal/security side despite deal touching employee data; still early",
-      "identify_pain": "Review sprawl across docs and email, causing inconsistent reviews and no centralized record",
+      "economic_buyer": "Graham, VP of People, owns budget for this range but hasn't seen the proposal yet",
+      "decision_criteria": "Consistency of reviews and having a record to look back on (ease of manager adoption is secondary benefit)",
+      "decision_process": "Farrah wants to get further along before looping in Graham; rep to prepare a one-pager for him",
+      "paper_process": "Nothing identified yet on legal/security side despite employee data involved; still early",
+      "identify_pain": "Review sprawl across docs and email",
       "champion": "Farrah Okonkwo (People Ops Lead)",
       "competition": null
     },
@@ -26,13 +26,13 @@
     "deal_id": "1042",
     "company": "Ironwood Cloud Software",
     "risk_tier": "Red",
-    "reasoning": "Both forecast_category and stage are contradicted (Devon admits the CFO 'hasn't seen this yet' and hasn't even been walked through the proposal, ruling out Commit-level certainty), which floors this at Yellow at best; additionally the economic_buyer is missing since Devon (named EB in CRM) explicitly disclaims budget authority ('anything over six figures has to go through him'), and with only 10 days_to_close this unresolved CFO approval gate is a MUST-have gap that cannot close in time, pushing this to Red.",
-    "recommended_action": "Correct forecast_category from Commit and stage from Proposal-ready-to-close back to reflect CFO sign-off not yet started, and have Theo get the one-pager to Devon immediately and push for a direct CFO call rather than async-only, since with only 10 days to close_date there's no confirmed path to get the actual economic buyer (the CFO) to review and approve in time.",
+    "reasoning": "Both forecast_category and stage are contradicted (Devon admits \"I haven't had a chance to actually walk him through it yet\" with the CFO, the real economic buyer, meaning terms aren't finalized with the decision maker despite Commit/Proposal labeling), and separately the true economic buyer (CFO) is unengaged with only 10 days_to_close - Devon, previously listed as economic buyer, is only a champion who lacks final authority.",
+    "recommended_action": "Correct the stage in the CRM from Proposal to Evaluation and forecast_category from Commit to Best Case, since the CFO (true economic buyer) hasn't yet seen the proposal, and immediately get the one-pager to Devon to route to the CFO while pushing for a direct CFO touchpoint before end of quarter given only 10 days remain to close.",
     "meddpicc": {
-      "metrics": "Manager-hours saved from automated tracking vs. current spreadsheets-and-email approach (specific figures to be compiled into a one-pager)",
-      "economic_buyer": "CFO — must approve anything over six figures; Devon Whitcombe (Director of People) is not the actual budget authority as CRM listed",
-      "decision_criteria": "Cost of solution versus current spreadsheets-and-email approach",
-      "decision_process": "Pilot complete; proposal now needs to go to CFO (async first) for sign-off before deal can move forward",
+      "metrics": "Manager-hours saved from calibration/review cycle vs. current spreadsheet-and-email process (specific figures to be compiled in a one-pager)",
+      "economic_buyer": "CFO must approve since deal is over six figures; Devon Whitcombe (Director of People) had been listed as economic buyer but is actually a champion/influencer, not final approver",
+      "decision_criteria": null,
+      "decision_process": "Pilot complete with two teams and positive feedback; still needs async proposal review and sign-off from CFO before moving forward; target to close by end of quarter",
       "paper_process": "Security review and data processing agreement already completed",
       "identify_pain": "Manual tracking during calibration",
       "champion": "Devon Whitcombe",
@@ -40,6 +40,7 @@
     },
     "flags": {
       "missing_data_fields": [
+        "decision_criteria",
         "competition"
       ]
     }
@@ -48,17 +49,17 @@
     "deal_id": "1043",
     "company": "Copperline Systems",
     "risk_tier": "Yellow",
-    "reasoning": "Days_to_close is 25 (under the 30-day threshold), and all MEDDPICC fields besides identify_pain and competition are still undetermined—including champion and economic_buyer, which would normally be acceptable gaps this early in Discovery but aren't given the compressed runway; Harper only says \"it's mostly me right now\" with no confirmed budget authority or internal champion status established.",
-    "recommended_action": "On the scheduled deeper walkthrough, explicitly confirm whether Harper controls budget/signs off on purchases (economic_buyer) or identify who else needs to approve, since the close date is only 25 days out and this is currently undetermined.",
+    "reasoning": "This is a first Discovery call with days_to_close at 25 (under the 30-day threshold), so stage-normal MEDDPICC gaps like economic_buyer, champion, metrics, decision_criteria, decision_process, and paper_process do not qualify for Green — Harper only says \"it's mostly me right now\" with no confirmed budget authority or process, and none of these fields were established.",
+    "recommended_action": "On the follow-up walkthrough call, Simone should explicitly ask Harper who else (e.g., a founder or finance lead) would need to sign off on a purchase to confirm the economic buyer given the tight 25-day close window.",
     "meddpicc": {
       "metrics": null,
       "economic_buyer": null,
       "decision_criteria": null,
       "decision_process": null,
       "paper_process": null,
-      "identify_pain": "No formal performance review process; ad hoc manager conversations, growing past informal management.",
+      "identify_pain": "No formal performance review process; reviews are ad hoc and inconsistent as the company grows, creating a need for a structured system.",
       "champion": null,
-      "competition": "None currently; this is the first tool being evaluated, no other vendors in play."
+      "competition": "None currently; this is the first tool Harper is evaluating, no other vendors in consideration yet."
     },
     "flags": {
       "missing_data_fields": [
@@ -74,22 +75,23 @@
   {
     "deal_id": "1044",
     "company": "Amberfield Holdings",
-    "risk_tier": "Yellow",
-    "reasoning": "forecast_category is contradicted (Best Case vs. Leyla's \"wants the committee's read before he commits\" and \"still in the committee stage\"), which floors this deal below Green; additionally with only 15 days_to_close, the still-null metrics and identify_pain fields (normally acceptable gaps in Evaluation) become risk since there's insufficient runway, and the committee doesn't meet again until mid-August, right at the close_date.",
-    "recommended_action": "Correct forecast_category from Best Case to a more conservative category (e.g. Pipeline/Commit-pending) since Grant Feldman has not committed and the committee's mid-August meeting lands right at the Aug 10 close_date, and use the next call with Leyla to pin down quantified pain/metrics (e.g. cost or time impact of losing review data) before the committee convenes.",
+    "risk_tier": "Red",
+    "reasoning": "Forecast_category is contradicted (Grant \"wants the committee's read before he commits\" and legal hasn't been engaged, despite being logged as Best Case), and stage is contradicted (transcript shows \"still in the committee stage\" before legal, consistent with Evaluation not further along) — this alone floors the deal at Yellow, but with only 15 days_to_close and the committee not meeting until mid-August (on/after the Aug 10 close_date) while paper_process hasn't even started, there's a concrete fact the deal cannot realistically close on time, escalating to Red.",
+    "recommended_action": "Correct forecast_category from Best Case to a more conservative category (e.g. Pipeline/Commit) and push close_date past mid-August, since Leyla confirmed the committee \"meets monthly\" and won't land until mid-August with legal review still unstarted.",
     "meddpicc": {
       "metrics": null,
-      "economic_buyer": "Grant Feldman (COO) - leaning positive, wants committee's read before committing",
-      "decision_criteria": "Ability to migrate historical review data without loss, and speed of support team response when managers get stuck mid-cycle",
+      "economic_buyer": "Grant Feldman (COO) - confirmed as final sign-off, leaning positive pending committee input",
+      "decision_criteria": "Data migration fidelity (no loss of historical review data) and speed of support response during mid-cycle issues",
       "decision_process": "Committee review mid-August, meets monthly",
-      "paper_process": "Not yet started; legal has not been engaged, still in committee stage",
+      "paper_process": null,
       "identify_pain": null,
       "champion": "Leyla Osman",
-      "competition": "Ridgeline Perform - committee felt their support model was slower to respond, working in our favor"
+      "competition": "Ridgeline Perform - committee eval found their support model slower to respond, favoring incumbent deal"
     },
     "flags": {
       "missing_data_fields": [
         "metrics",
+        "paper_process",
         "identify_pain"
       ]
     }
@@ -98,17 +100,17 @@
     "deal_id": "1045",
     "company": "Larkspur Media Group",
     "risk_tier": "Yellow",
-    "reasoning": "The stage field is contradicted-flagged as consistent with Discovery on re-evaluation but the data integrity check flags it as \"contradicted\" in the CRM (no decision process was logged despite the transcript revealing one), which floors this deal at Yellow; additionally, economic_buyer (Roisin, unconfirmed and not yet briefed) and champion substance are weak since Bianca admits \"I haven't brought it to her yet,\" which are stage-normal for Discovery but the CRM discrepancy itself signals the deal isn't being actively kept current.",
-    "recommended_action": "Update the CRM decision_process field to reflect that Bianca must first bring this to her manager Roisin before any approval, and have Wes deliver the recorded walkthrough this week so Bianca can move that internal conversation forward.",
+    "reasoning": "Stage is contradicted — Bianca says \"I haven't brought it to her yet\" and wants a recorded walkthrough rather than a live meeting, indicating no actual meeting has been held with a stakeholder, so the true effective stage is pre-Discovery; this floors the deal at Yellow rather than Green. Additionally, economic_buyer Roisin is named but not engaged (per pass 1: \"likely approver, not yet engaged\"), which counts as missing per the champion/EB substance rule, and decision_process is only informal.",
+    "recommended_action": "Correct the CRM stage from Discovery back to pre-Discovery/unqualified since no stakeholder meeting has occurred, and have Wes get the recorded walkthrough to Bianca this week so she can loop in Roisin and convert her from a named-but-unengaged economic buyer into an actual evaluator.",
     "meddpicc": {
       "metrics": null,
-      "economic_buyer": "Roisin (Bianca's manager) is likely the approver, but not yet confirmed as budget authority",
+      "economic_buyer": "Roisin (Bianca's manager) - likely approver, not yet engaged",
       "decision_criteria": null,
-      "decision_process": "Bianca must first bring the proposal to her manager Roisin, who has not yet been engaged",
+      "decision_process": "Bianca to bring recorded walkthrough to her manager Roisin for approval; not yet formally initiated",
       "paper_process": null,
-      "identify_pain": "Review sign-offs frequently missed",
+      "identify_pain": "Review sign-offs frequently missed; issue has worsened, with each review requiring three separate sign-offs often missed before cycle closes",
       "champion": "Bianca Souza",
-      "competition": "No competing vendors identified; Bianca confirmed this is the only solution she's looked at so far"
+      "competition": "None identified; prospect stated this is the only solution she's looked at so far"
     },
     "flags": {
       "missing_data_fields": [
@@ -122,17 +124,17 @@
     "deal_id": "1046",
     "company": "Northgate Biosciences",
     "risk_tier": "Red",
-    "reasoning": "close_date is contradicted — Ines states \"I don't have a hard deadline anymore, which is part of the problem\" — which per the data integrity floor makes this deal Red regardless of other signals, and is compounded by forecast_category contradiction (active Meadowlight bake-off, Finance price pushback) and stage contradiction (still comparing vendors, not finalizing paper).",
-    "recommended_action": "Correct close_date in the CRM off 2026-08-01 (and downgrade forecast_category from Best Case) since Ines explicitly said she no longer has a hard deadline, and get a new committed decision date tied to the reporting-depth comparison you're building against Meadowlight before re-forecasting.",
+    "reasoning": "Close_date is contradicted — Ines states \"I don't have a hard deadline anymore, which is part of the problem\" and the deal has already slipped past a prior expected close — which per the data integrity floor makes this Red regardless of other signals; this is compounded by unresolved Finance price pushback and an active Meadowlight bake-off with no economic buyer identified.",
+    "recommended_action": "Correct close_date in the CRM away from 2026-08-01 (and update stage from Proposal back to Evaluation, since Ines says directors \"want a bake-off before we commit to anything\") and get Ines to commit to a concrete new decision date before investing further in the Meadowlight reporting-depth comparison.",
     "meddpicc": {
       "metrics": null,
       "economic_buyer": null,
-      "decision_criteria": "Reporting depth and integration with existing HR systems, along with price competitiveness (transcript confirms price is a key factor, plus adds reporting depth and HR system integration as criteria)",
-      "decision_process": "Directors want a bake-off/comparison between vendors before committing; previously expected to decide about a month ago but no hard deadline now",
+      "decision_criteria": "Reporting depth and integration with existing HR systems, alongside price competitiveness (finance pushback on price vs. budget expectations)",
+      "decision_process": "Directors want a bake-off/comparison between vendors before committing; timeline has slipped with no hard deadline currently set",
       "paper_process": null,
       "identify_pain": null,
       "champion": "Ines Carvalho",
-      "competition": "Meadowlight - offering a lower price but with shallower performance review depth"
+      "competition": "Meadowlight (lower price but perceived shallower performance review depth)"
     },
     "flags": {
       "missing_data_fields": [
@@ -147,17 +149,17 @@
     "deal_id": "1047",
     "company": "Suncrest Provisions",
     "risk_tier": "Yellow",
-    "reasoning": "Stage is contradicted — Freya describes security/DPA review still ~1 week from clearing with contract not yet even sent to legal, which is Evaluation-stage activity, not Negotiation, so per the data integrity floor this deal cannot be Green; additionally identify_pain remains undetermined with only 13 days_to_close, which under the <30-day rule makes any undetermined MEDDPICC field a Yellow risk on its own.",
-    "recommended_action": "Correct the CRM stage from Negotiation back to Evaluation (or update next_steps to reflect security/DPA review completion) since Freya confirmed no contract has been sent yet, and have Nora quickly confirm identify_pain with Freya or Anton to close that gap given only 13 days remain to close.",
+    "reasoning": "Both forecast_category and stage are contradicted (Freya says security review/DPA is still pending and \"just getting the contract in front of legal\" — no redlines or commercial negotiation, which is Evaluation/Proposal, not Negotiation/Commit), which floors this deal at Yellow; with only 13 days_to_close and paper_process (legal review, DPA, signature) not yet resolved, there's insufficient runway to treat this as normal-for-stage.",
+    "recommended_action": "Correct the stage from Negotiation to Evaluation/Proposal and forecast_category from Commit to a less certain category (e.g. Best Case) — Freya's own words confirm security review, DPA, and legal contract review are all still pending with no redlines exchanged yet.",
     "meddpicc": {
-      "metrics": "Manager hours saved per review cycle — confirmed as the key number that got the deal prioritized",
-      "economic_buyer": "Freya Lindqvist (VP of People) — confirmed she approved budget",
-      "decision_criteria": "Implementation timeline",
-      "decision_process": "Security/DPA review nearing completion (~1 week out), then contract goes to legal for signature",
-      "paper_process": "Security review in progress, about a week from clearing, followed by legal review of contract",
+      "metrics": "Manager hours saved per review cycle",
+      "economic_buyer": "Freya Lindqvist (VP of People) - confirmed she approved budget",
+      "decision_criteria": "Compensation and calibration feature depth (Fieldnote ruled out for being too lightweight there)",
+      "decision_process": "Security review nearing completion (~1 week out), then contract goes to legal for final signature",
+      "paper_process": "Security review in progress, plus data processing agreement and legal contract review still pending",
       "identify_pain": null,
       "champion": "Anton Reyes-Boyd",
-      "competition": "Fieldnote — evaluated early on but ruled out for being too lightweight on compensation and calibration features"
+      "competition": "Fieldnote (evaluated early on, ruled out for lacking compensation/calibration depth)"
     },
     "flags": {
       "missing_data_fields": [
@@ -168,17 +170,17 @@
   {
     "deal_id": "1048",
     "company": "Fairmount Logistics",
-    "risk_tier": "Yellow",
-    "reasoning": "Stage is contradicted (Callum: \"I'd have to bring whoever I report to into this at some point\" and Simone extending the trial further indicates this is still discovery, not active Evaluation), which floors the deal at Yellow rather than Green; additionally economic_buyer and champion are both effectively missing since Callum admits \"I'm not the one who decides\" and hasn't \"framed it as an official problem to anyone above.\"",
-    "recommended_action": "Correct the stage in the CRM from Evaluation back to Discovery/Trial to reflect that no economic buyer or formal process exists yet, and have Simone ask Callum directly to identify and introduce his manager so an economic buyer can be established before close_date.",
+    "risk_tier": "Red",
+    "reasoning": "Both forecast_category and stage are contradicted by the transcript — Callum explicitly says \"I'm not the one who decides on tools\" and \"I haven't really framed it as an official problem to anyone above me yet\" — and economic_buyer and champion are both effectively missing (Callum is a trial coordinator without internal advocacy or authority), which is a MUST-have gap for Evaluation stage; combined with only 23 days_to_close, this independently supports Red on top of the CRM-staleness floor.",
+    "recommended_action": "Correct stage in the CRM from Evaluation back to Discovery and forecast_category from Estimate to Pipeline/Omitted, then have Simone ask Callum directly to identify and introduce his manager so an actual economic buyer can be engaged before the Aug 18 close date.",
     "meddpicc": {
       "metrics": null,
       "economic_buyer": null,
       "decision_criteria": null,
       "decision_process": null,
       "paper_process": null,
-      "identify_pain": "Review scheduling headaches — managers frequently forget when review cycles are open",
-      "champion": "Callum Ndiaye (though he admits he's not the decision-maker and hasn't formally escalated the pain internally, raising doubt about his effectiveness as a champion)",
+      "identify_pain": "Review scheduling headaches — managers often forget review cycles are open, requiring manual reminders",
+      "champion": "Callum Ndiaye (though transcript suggests he is more a trial coordinator than a true champion, as pain has not been formally escalated internally)",
       "competition": null
     },
     "flags": {
@@ -196,17 +198,17 @@
     "deal_id": "1049",
     "company": "Millbrook Industrial",
     "risk_tier": "Red",
-    "reasoning": "close_date is contradicted — Idris says \"no huge rush... no promises on timing, this isn't the only thing on our plate\" — which per the data integrity floor makes this deal Red regardless of other factors, and stage is also contradicted since Idris describes being \"still pretty early... just starting to compare\" (Discovery-like), not Evaluation. Additionally, economic_buyer and champion substance are both missing (Idris admits he's \"not sure\" who else gets involved and things would \"go up the chain\"), reinforcing that this deal is not being actively managed to the CRM's stated timeline.",
-    "recommended_action": "Correct the close_date (currently 2026-08-12) and stage (currently Evaluation) in the CRM to reflect reality — move stage back to Discovery and set close_date to TBD/push out, since Idris explicitly stated there's \"no huge rush\" and \"no promises on timing,\" then work with him to identify who \"up the chain\" needs to be looped in before re-forecasting a close date.",
+    "reasoning": "Close_date is contradicted — Idris states \"There's not a huge rush on our end... No promises on timing though\" and the deal is genuinely still in Discovery (\"we're still pretty early, honestly... just starting to compare\"), not Evaluation as CRM states, which per the fixed floor makes this deal Red regardless of other signals. Additionally, economic_buyer is unknown (\"Honestly not sure yet... it'd go up the chain at some point\") and Idris shows no real internal advocacy, undermining the listed champion.",
+    "recommended_action": "Correct the close_date in the CRM off Aug 12 and move stage back from Evaluation to Discovery — Idris explicitly said \"we're still pretty early... just starting to compare\" and \"no promises on timing,\" so set close_date to a TBD/re-qualify date and confirm a realistic timeline with Idris before re-forecasting.",
     "meddpicc": {
       "metrics": null,
       "economic_buyer": null,
-      "decision_criteria": "Looking for a tool that fits without overhauling existing processes; nothing has stood out yet",
-      "decision_process": "Still early stage, comparing a few tools; unclear who gets involved as it moves up the chain",
+      "decision_criteria": "Fit with existing workflows without major overhauls; still comparing options with nothing standing out yet",
+      "decision_process": "Not yet defined; would likely go up the chain once options are narrowed down",
       "paper_process": null,
       "identify_pain": "Efficiency improvements",
       "champion": "Idris Bakshi",
-      "competition": "A few unnamed tools/vendors being compared; no urgency, nothing is broken today (possible 'do nothing' risk)"
+      "competition": "Evaluating a few unnamed tools plus continuing to do reviews manually; no urgency since nothing is broken today"
     },
     "flags": {
       "missing_data_fields": [
@@ -220,15 +222,15 @@
     "deal_id": "1050",
     "company": "Westbrace Mutual Insurance",
     "risk_tier": "Yellow",
-    "reasoning": "Stage is contradicted—legal has gone \"back and forth twice already\" on the data retention clause, indicating active contract negotiation rather than proposal stage—which floors this deal at Yellow, and with only 11 days_to_close, the still-undetermined metrics and competition fields (normally acceptable gaps at Proposal) become risk since there's no runway left to resolve them.",
-    "recommended_action": "Correct the stage in the CRM from Proposal to Negotiation given the active legal redlining over the data retention clause, and have Wes get vendor legal on a joint call with Westbrace's legal immediately to resolve the clause before the Aug 6 close date.",
+    "reasoning": "Stage is contradicted — Tobias describes legal exchanging redlines twice on the data retention clause, which is Negotiation, not Proposal — so this deal can't be Green and is capped at Yellow (no independent Red trigger like a missing EB/champion, since Petra is confirmed on board and Tobias is actively engaged). At Negotiation effective stage, decision_process/paper_process are now known, but competition and metrics remain undetermined with only 11 days_to_close, which per the Yellow rule alone would already disqualify Green.",
+    "recommended_action": "Correct the CRM stage from Proposal to Negotiation to reflect that legal has exchanged redlines twice on the data retention clause, and have Wes get legal teams on a direct call this week as offered to close out the clause before the Aug 6 close date.",
     "meddpicc": {
       "metrics": null,
       "economic_buyer": "Petra Aldana (CFO)",
       "decision_criteria": "Audit trail and compliance documentation",
-      "decision_process": "Legal review (currently stuck on data retention clause matching) then CFO approval",
-      "paper_process": "Legal negotiating data retention clause to match customer's existing policy; vendor legal to join call with customer legal to expedite",
-      "identify_pain": "As a regulated business, need a documented, auditable trail for review cycles; currently takes days to compile audit info scattered across email and shared drives",
+      "decision_process": "Legal review (data retention clause negotiation) then CFO approval",
+      "paper_process": "Legal negotiating data retention clause to match existing policy; rep offering to connect legal teams directly to speed contract finalization",
+      "identify_pain": "As a regulated business, lack of a documented, auditable trail for review cycles makes pulling audit documentation (currently scattered across email and shared drives) take days",
       "champion": "Tobias Kwan",
       "competition": null
     },
@@ -243,15 +245,15 @@
     "deal_id": "1051",
     "company": "Palmerston Retail Group",
     "risk_tier": "Yellow",
-    "reasoning": "Days_to_close is 27 (under the 30-day threshold), so the stage-normal Discovery gaps in metrics, economic_buyer, decision_criteria, champion, and competition become risk rather than being excused; compounding this, Robyn explicitly says \"we're not actively shopping\" and the pain is \"not really a crisis moment, more just annoying,\" signaling weak urgency against a near-term close date.",
-    "recommended_action": "Before continuing to invest in this timeline, have Nora confirm with Robyn whether an economic buyer and any evaluation process actually exist, and if not, update close_date to reflect a realistic longer timeline given the stated lack of active shopping intent.",
+    "reasoning": "Days_to_close is only 27 (under the 30-day threshold), which means the otherwise-normal Discovery-stage gaps in economic_buyer, champion, metrics, decision_criteria, and competition all count as risk; additionally Robyn stated they are \"not actively shopping\" and the issue is \"not really a crisis moment,\" signaling weak urgency for a deal forecasted at 15% probability to close in under a month.",
+    "recommended_action": "Nora should use the follow-up overview email to secure a next meeting with Robyn to identify an economic buyer and quantify pain, since none has been established and the current 27-day close window leaves no runway for these to remain unknown.",
     "meddpicc": {
       "metrics": null,
       "economic_buyer": null,
       "decision_criteria": null,
       "decision_process": null,
       "paper_process": null,
-      "identify_pain": "Team relies on a shared doc template and sticky notes for reviews, which is annoying day-to-day but not a crisis",
+      "identify_pain": "Current process relies on a shared doc template and sticky notes for reviews, causing day-to-day annoyance (not a major crisis).",
       "champion": null,
       "competition": null
     },
@@ -270,18 +272,18 @@
   {
     "deal_id": "1052",
     "company": "Vantage Robotics",
-    "risk_tier": "Yellow",
-    "reasoning": "Both forecast_category and stage are contradicted (transcript shows security review/board sign-off still pending, not Negotiation-level redlines, and Julian's own words - 'there's a chance it slips to the one after if he's not back' - undercut the Commit certainty), which floors this deal below Green; with only 9 days_to_close, this uncertain board timing plus a board member on leave creates real risk that close_date will be missed even though it's not yet a confirmed slip.",
-    "recommended_action": "Correct the CRM stage from Negotiation to Evaluation/Proposal and adjust forecast_category off Commit until board sign-off is confirmed, since Julian stated the security review is still not finished and the board vote itself could slip a full meeting if the absent board member isn't back.",
+    "risk_tier": "Red",
+    "reasoning": "Both forecast_category and stage are contradicted (security review still in progress with no redlines exchanged, meaning the deal is actually in Evaluation, not Negotiation), which floors this at Yellow at best — but the deal also cannot close reliably in the stated 9-day window since Julian explicitly said board sign-off \"could slip to the one after if he's not back,\" directly undermining the Commit forecast and the Aug 4 close_date, which independently supports Red.",
+    "recommended_action": "Correct the stage from Negotiation to Evaluation and change forecast_category from Commit to Best Case in the CRM, since Julian confirmed security review/MSA are still in progress with no redlines exchanged and board sign-off timing is explicitly at risk of slipping past the Aug 4 close_date.",
     "meddpicc": {
-      "metrics": "20% improvement in review completion rate, confirmed still holds and drove prioritization",
+      "metrics": "20% improvement in review completion rate (confirmed by prospect as the reason this was prioritized)",
       "economic_buyer": "Renata Buell (CFO)",
       "decision_criteria": "Security certification",
-      "decision_process": "Security review (nearly complete, expected end of week) then board sign-off at next board meeting, with possible slip to following meeting if a board member remains on leave",
-      "paper_process": "MSA redlines with legal, proceeding in parallel with no current blockers",
+      "decision_process": "Security review (nearly complete, expected to clear by end of week) then board sign-off, though timing could slip a meeting if an out-on-leave board member isn't back",
+      "paper_process": "MSA redlines with legal, moving in parallel with security review, nothing currently blocking",
       "identify_pain": "Fragmented review process across regions",
       "champion": "Julian Ostrowski",
-      "competition": "GradeLine dropped off after failing to meet security certification requirements"
+      "competition": "GradeLine dropped off after the security review request; their certifications reportedly fell short given data sensitivity"
     },
     "flags": {
       "missing_data_fields": []
@@ -291,16 +293,16 @@
     "deal_id": "1053",
     "company": "Bellcrest Health Group",
     "risk_tier": "Yellow",
-    "reasoning": "Stage is contradicted (transcript shows deal is essentially past Evaluation, into paperwork), which floors this at Yellow max, and champion Talia disclosed she may leave her role next quarter with no confirmed successor (\"Not fully decided yet, could be someone on my current team\"), turning champion into an unconfirmed/at-risk element with only 16 days_to_close remaining.",
-    "recommended_action": "Update the stage from Evaluation to Proposal to reflect that budget is approved and only integration confirmation remains before paperwork, and have Kwame proactively identify and engage Talia's likely successor now to secure champion continuity before the close date.",
+    "reasoning": "Forecast_category is contradicted (Talia may move roles next quarter with no successor decided, and integration still needs to be confirmed before paperwork), which per the floor caps this deal at Yellow rather than Green; additionally champion continuity is at risk since Talia says \"I might not even be the one managing it day-to-day for much longer\" with no successor named, and paper_process/competition/metrics/identify_pain remain undetermined with only 16 days_to_close, which is under the 30-day threshold.",
+    "recommended_action": "Correct forecast_category in the CRM from Commit to a less certain category (e.g. Best Case) since Talia's pending role change and unresolved integration confirmation mean the deal isn't yet at near-certain closure, and have Kwame ask Talia to identify and loop in her likely successor now to secure champion continuity before her transition.",
     "meddpicc": {
       "metrics": null,
-      "economic_buyer": "Desmond (CFO) - confirmed in transcript as having signed off on budget range",
-      "decision_criteria": "HRIS integration compatibility - confirmed in transcript as key requirement for Talia's team",
-      "decision_process": "Final step is confirming HRIS integration works, then moving to paperwork/close",
+      "economic_buyer": "Desmond (CFO) - confirmed in transcript, signed off on budget range",
+      "decision_criteria": "HRIS integration compatibility - confirmed as key requirement in transcript",
+      "decision_process": "Final step is confirming HRIS integration compatibility, then moving to paperwork",
       "paper_process": null,
       "identify_pain": null,
-      "champion": "Talia Grunwald - though she flagged a possible role change next quarter that could risk continuity",
+      "champion": "Talia Grunwald, though she may transition to a new role next quarter, creating handoff risk",
       "competition": null
     },
     "flags": {
@@ -316,15 +318,15 @@
     "deal_id": "1054",
     "company": "Thornecroft Legal",
     "risk_tier": "Green",
-    "reasoning": "This is a first exploratory Discovery call (days_in_stage: 4, days_to_close: 33 which is at/above the 30-day threshold) where Miriam explicitly says \"this is pretty early for us\" and hasn't looped in partners yet — all MEDDPICC gaps (economic_buyer, champion, competition, etc.) are normal and expected at this stage with adequate runway remaining.",
-    "recommended_action": "Send the promised background materials and schedule the deeper-dive call to begin identifying pain and looping in the partners Miriam mentioned as likely stakeholders.",
+    "reasoning": "This is a genuine first discovery call (Miriam: \"this is pretty early for us,\" associate reviews happen only \"whenever a partner remembers\") with days_to_close at 33, above the 30-day threshold, so the expected Discovery-stage gaps in metrics, economic_buyer, champion, decision_process, etc. are normal rather than risk signals.",
+    "recommended_action": "Simone should schedule the \"deeper dive\" call promptly and use it to identify which partner(s) will act as economic buyer, since Miriam admitted \"I haven't looped anyone in yet.\"",
     "meddpicc": {
       "metrics": null,
       "economic_buyer": null,
       "decision_criteria": null,
       "decision_process": null,
       "paper_process": null,
-      "identify_pain": "Early-stage exploration; associate reviews currently happen inconsistently, only when a partner remembers to do them",
+      "identify_pain": "Associate reviews happen inconsistently, only when a partner remembers; team is early-stage and still figuring out the core pain.",
       "champion": null,
       "competition": null
     },
@@ -344,17 +346,17 @@
     "deal_id": "1055",
     "company": "Redshaw Freight",
     "risk_tier": "Yellow",
-    "reasoning": "Stage is contradicted—no contract with commercial terms has been sent (Wes says \"I'll get you something to bring to her\"), which is inconsistent with Proposal stage, floors this at Yellow max; additionally with only 14 days_to_close, the still-undetermined metrics field and un-started security/paper process push this to Yellow risk since there's insufficient runway for stage-normal gaps to excuse it.",
-    "recommended_action": "Correct the stage in the CRM back from Proposal to Evaluation (or Negotiation-prep) since no formal proposal/contract with numbers has actually been sent to Nikolai yet, and get the final numbers to Odalys and kick off the security review this week to protect the Aug 9 close date.",
+    "reasoning": "forecast_category is contradicted—Odalys \"wants to see the final numbers before she signs\" and the security review \"hasn't kicked off yet,\" which doesn't support Best Case confidence at Proposal stage with only 14 days_to_close—so this deal is floored at Yellow, and with days_to_close under 30 the still-undetermined metrics field also counts as risk rather than a normal stage gap; additionally the paper_process (security review) hasn't started despite being \"likely\" for Proposal stage.",
+    "recommended_action": "Correct forecast_category in the CRM from Best Case to a more conservative category (e.g. Pipeline/Commit) since Odalys hasn't signed off on numbers and the security review of driver data hasn't started, and separately push to kick off that security review immediately given only 14 days remain to close_date.",
     "meddpicc": {
       "metrics": null,
-      "economic_buyer": "Odalys Kim (VP Finance) - supportive but wants final numbers before signing",
-      "decision_criteria": "Mobile-friendly access for managers to conduct reviews in the field/yard",
-      "decision_process": "Odalys Kim must review final numbers before approving; security review expected but not yet started",
-      "paper_process": "Security team review required due to driver data involved (not yet kicked off)",
-      "identify_pain": "Inconsistent reviews for frontline and driver staff, especially lack of mobile-friendly tools for managers on the road/floor",
+      "economic_buyer": "Odalys Kim (VP Finance) - supportive so far, wants to see final numbers before signing",
+      "decision_criteria": "Needs mobile-friendly access so managers can complete reviews from the road or floor",
+      "decision_process": "Odalys (VP Finance) must review final numbers before approving; security review expected but not yet started",
+      "paper_process": "Security team will need to review the solution due to driver data involved, but hasn't kicked off yet",
+      "identify_pain": "Inconsistent reviews for frontline and driver staff, with no easy way for managers to conduct them from the road or floor",
       "champion": "Nikolai Farrow",
-      "competition": "Fieldnote (evaluated but seen as too lightweight for frontline staff needs)"
+      "competition": "Fieldnote (evaluated but seen as too lightweight for their frontline staff needs)"
     },
     "flags": {
       "missing_data_fields": [
@@ -365,18 +367,18 @@
   {
     "deal_id": "1056",
     "company": "Halloway & Birch Consulting",
-    "risk_tier": "Red",
-    "reasoning": "Stage is Evaluation with only 19 days_to_close, yet economic_buyer is completely undetermined — Zanele admits \"Honestly not totally sure, it might need to go to our General Counsel, but I haven't confirmed that yet\" — which is a MUST-have field for this stage and its absence is a standalone Red trigger; this is compounded by an active, unresolved competitor threat (Meadowlight) still being compared on security and data residency with no differentiation plan discussed.",
-    "recommended_action": "Nora should immediately ask Zanele to identify and loop in the actual economic buyer (likely General Counsel) to confirm sign-off authority before the Aug 14 close date, since with only 19 days left there's no runway to resolve this unknown organically.",
+    "risk_tier": "Yellow",
+    "reasoning": "Stage is Evaluation with only 19 days_to_close, yet economic_buyer is unknown (\"Honestly not totally sure, it might need to go to our General Counsel, but I haven't confirmed that yet\") and decision_process/paper_process remain unresolved — under the sub-30-day threshold these otherwise stage-normal gaps count as risk, and there's also an active named competitor (Meadowlight) with security/data residency cited as the deciding factors.",
+    "recommended_action": "Nora should ask Zanele to identify and directly loop in the actual economic buyer (likely General Counsel) this week to confirm sign-off authority and process, given only 19 days remain to close_date.",
     "meddpicc": {
       "metrics": null,
       "economic_buyer": null,
-      "decision_criteria": "Data residency requirements per operating region; security is also a deciding factor alongside data residency",
-      "decision_process": "Sign-off may need to go to General Counsel, but not yet confirmed",
+      "decision_criteria": "Data residency requirements; security is also a deciding factor alongside data residency",
+      "decision_process": "Possibly requires General Counsel sign-off once data residency is confirmed, but not yet confirmed",
       "paper_process": null,
-      "identify_pain": "Manual review-cycle compliance checks across regional teams that don't reliably match local requirements — slow and error-prone",
+      "identify_pain": "Manual review-cycle compliance checks across regional teams that are slow and error prone, and don't reliably match local requirements",
       "champion": "Zanele Mbeki",
-      "competition": "Meadowlight (still actively being compared, deciding factors are security and data residency)"
+      "competition": "Meadowlight - actively being compared, with security and data residency as the deciding factors"
     },
     "flags": {
       "missing_data_fields": [

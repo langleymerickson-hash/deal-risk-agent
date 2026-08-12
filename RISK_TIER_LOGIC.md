@@ -218,13 +218,35 @@ expect it to keep showing up on whatever the next-most-ambiguous case is.
 
 - No tier-conditioned taxonomy for `recommended_action` (see above) — biggest remaining lever if
   you want more consistent action *types* per tier, independent of what's driving the tier.
-- **Stage reference ambiguity (newly found, unresolved):** when pass 2a flags the CRM's `stage`
-  as contradicted (the transcript describes an earlier-looking sales process than the label
-  claims), it's ambiguous whether the MEDDPICC stage-expectations table above should be evaluated
-  against the CRM's *labeled* stage or the transcript-implied *true* stage. Observed inconsistent
-  behavior across samples on the same deal: some samples judge EB/champion must-ness against the
-  (wrong) labeled stage, others against the more lenient true stage. Both are defensible readings
-  — using the true stage arguably makes more sense (why hold a deal to a more advanced stage's bar
-  if that label is itself wrong?) — but the prompt doesn't currently specify which to use, and
-  that's a real source of residual flip risk on any deal with a stage contradiction. Worth a
-  decision and an explicit rule.
+
+## Fixed: stage reference ambiguity (resolved)
+
+Previously open: when pass 2a flags the CRM's `stage` as contradicted (the transcript describes
+an earlier-looking sales process than the label claims), the prompt didn't say whether the
+MEDDPICC stage-expectations table should be evaluated against the CRM's *labeled* stage or the
+transcript-implied *true* stage. Observed inconsistent behavior across samples on the same deal
+as a result — some samples judged EB/champion must-ness against the (wrong) labeled stage, others
+against the more lenient true stage.
+
+**Decision: always use the transcript-implied true stage** (renamed *effective stage* in the
+prompt) when `stage` is contradicted; use the CRM's labeled stage as-is otherwise. Rationale: the
+project's own founding reconciliation rule is that the transcript is ground truth. Judging
+MEDDPICC gaps against a CRM stage label that's already been established as false penalizes the
+same lie twice — once via the pass 2a floor, again by holding the deal to a more advanced stage's
+bar than it's actually at. This isn't a coin-flip judgment call; it's the existing project
+philosophy not yet applied consistently to this one spot.
+
+Fix (`src/prompts/riskAssessment.ts`): the MEDDPICC-by-stage reference section now explicitly
+resolves which stage to judge against *before* presenting the possible/likely/MUST table, using
+the same stage definitions pass 2a already uses, so both passes share one consistent notion of
+"stage." All downstream "current stage" references in the Red/Yellow/Green tier text were updated
+to "effective stage" for consistency.
+
+**Important difference from the days-to-close fix above: this one is not independently
+verifiable without a live model call.** `days_to_close` is arithmetic — the fix could be proven
+correct with a pure function and no API access at all. "What stage is this deal really in" is
+inference over unstructured transcript text; there's no deterministic ground truth to precompute
+against. The prompt logic typechecks and reads unambiguously, but confirming the model actually
+follows it requires a real run: rerun the deals with a stage contradiction (1041, 1044, 1048 in
+the sample set) and confirm reasoning now judges MEDDPICC gaps against the transcript-implied
+stage, not the CRM's discarded label.
